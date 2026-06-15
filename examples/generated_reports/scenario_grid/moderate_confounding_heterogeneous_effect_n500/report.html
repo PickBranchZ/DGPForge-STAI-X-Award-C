@@ -1,0 +1,633 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DGPForge Report - moderate_confounding_heterogeneous_effect_n500</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #5f6d82;
+      --line: #d8deea;
+      --panel: #f6f8fb;
+      --panel-strong: #edf4f5;
+      --accent: #2f6f7e;
+      --accent-ink: #17424a;
+      --rust: #a85d3d;
+      --warn-bg: #fff2e8;
+      --warn: #954817;
+      --ok-bg: #eaf6ef;
+      --ok: #256d49;
+    }
+    * {
+      box-sizing: border-box;
+    }
+    html {
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #ffffff;
+      line-height: 1.5;
+      max-width: 100%;
+      overflow-x: hidden;
+    }
+    header {
+      background: #f7fafb;
+      border-bottom: 1px solid var(--line);
+    }
+    .hero {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 38px 24px 28px;
+      display: grid;
+      grid-template-columns: minmax(0, 1.4fr) minmax(280px, .8fr);
+      gap: 26px;
+      align-items: end;
+    }
+    .eyebrow {
+      margin: 0 0 8px;
+      color: var(--accent-ink);
+      font-size: 12px;
+      font-weight: 800;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      margin: 0;
+      font-size: 34px;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+    .subtitle {
+      margin: 12px 0 0;
+      color: var(--muted);
+      font-size: 16px;
+      max-width: 760px;
+    }
+    .hero-note {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 14px 16px;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .hero-note strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--ink);
+    }
+    main {
+      width: 100%;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 24px 24px 46px;
+    }
+    p, span, h1, h2, h3, dt, dd, td, th, code {
+      overflow-wrap: anywhere;
+    }
+    section {
+      margin-top: 26px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      letter-spacing: 0;
+    }
+    h3 {
+      margin: 0 0 8px;
+      font-size: 15px;
+      letter-spacing: 0;
+    }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(140px, 1fr));
+      gap: 12px;
+    }
+    .compact-cards {
+      grid-template-columns: repeat(4, minmax(150px, 1fr));
+    }
+    .card {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px 15px;
+      background: var(--panel);
+      min-height: 94px;
+    }
+    .label {
+      color: var(--muted);
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      font-weight: 800;
+    }
+    .value {
+      margin-top: 6px;
+      font-size: 22px;
+      line-height: 1.15;
+      font-weight: 800;
+      overflow-wrap: anywhere;
+    }
+    .subvalue {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+    .ok {
+      color: var(--ok);
+    }
+    .warn {
+      color: var(--warn);
+    }
+    .badge {
+      display: inline-block;
+      border-radius: 999px;
+      padding: 4px 9px;
+      font-size: 12px;
+      font-weight: 800;
+      line-height: 1;
+    }
+    .badge.ok {
+      background: var(--ok-bg);
+      color: var(--ok);
+    }
+    .badge.warn {
+      background: var(--warn-bg);
+      color: var(--warn);
+    }
+    .workflow {
+      display: grid;
+      grid-template-columns: repeat(5, minmax(150px, 1fr));
+      gap: 10px;
+    }
+    .workflow-step {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 12px;
+      min-height: 130px;
+    }
+    .workflow-step span {
+      display: block;
+      margin-top: 5px;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .step-index {
+      width: 25px;
+      height: 25px;
+      border-radius: 50%;
+      display: grid;
+      place-items: center;
+      margin-bottom: 10px;
+      background: var(--panel-strong);
+      color: var(--accent-ink);
+      font-weight: 800;
+      font-size: 12px;
+    }
+    .two-column {
+      display: grid;
+      grid-template-columns: minmax(0, 1.05fr) minmax(300px, .95fr);
+      gap: 16px;
+      align-items: start;
+    }
+    .dgp-list {
+      display: grid;
+      grid-template-columns: minmax(130px, 210px) 1fr;
+      gap: 8px 16px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 16px;
+      background: #fff;
+      margin: 0;
+    }
+    dt {
+      color: var(--muted);
+      font-weight: 800;
+    }
+    dd {
+      margin: 0;
+      min-width: 0;
+      overflow-wrap: anywhere;
+    }
+    .dag-wrap {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+      padding: 10px 12px 12px;
+    }
+    .dag-wrap svg {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-height: 230px;
+    }
+    .dag-wrap rect {
+      fill: #f8fafc;
+      stroke: #ccd6e2;
+    }
+    .dag-wrap line,
+    .dag-wrap path {
+      stroke: #42566e;
+      stroke-width: 2.2;
+    }
+    .dag-wrap marker path {
+      fill: #42566e;
+    }
+    .dag-wrap text {
+      fill: var(--ink);
+      font-size: 16px;
+      font-family: ui-sans-serif, system-ui, sans-serif;
+    }
+    .dag-wrap text:nth-of-type(2) {
+      fill: var(--muted);
+      font-size: 12px;
+    }
+    .dag-wrap p,
+    .note {
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+    .table-scroll {
+      max-width: 100%;
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fff;
+    }
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+      min-width: 780px;
+    }
+    .compact-table {
+      min-width: 620px;
+    }
+    .data-table th,
+    .data-table td {
+      border-bottom: 1px solid var(--line);
+      padding: 8px 9px;
+      text-align: right;
+      white-space: nowrap;
+    }
+    .data-table th:first-child,
+    .data-table td:first-child,
+    .data-table th:nth-child(2),
+    .data-table td:nth-child(2) {
+      text-align: left;
+    }
+    .data-table th {
+      background: var(--panel);
+      color: #303a4d;
+      font-size: 12px;
+    }
+    .plot-grid {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(300px, 1fr));
+      gap: 16px;
+      align-items: start;
+    }
+    figure {
+      margin: 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 10px;
+      background: #fff;
+    }
+    figure.wide {
+      grid-column: 1 / -1;
+    }
+    figure img {
+      width: 100%;
+      display: block;
+    }
+    pre {
+      white-space: pre-wrap;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: #fbfcfe;
+      overflow-x: auto;
+      font-size: 13px;
+    }
+    code {
+      background: #eef3f7;
+      padding: 2px 5px;
+      border-radius: 5px;
+      overflow-wrap: anywhere;
+      white-space: normal;
+    }
+    @media (max-width: 900px) {
+      .hero,
+      main {
+        padding-left: 16px;
+        padding-right: 16px;
+      }
+      .hero,
+      .two-column {
+        grid-template-columns: 1fr;
+      }
+      .cards,
+      .compact-cards,
+      .workflow,
+      .plot-grid {
+        grid-template-columns: 1fr;
+      }
+      h1 {
+        font-size: 29px;
+      }
+      .dgp-list {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="hero">
+      <div>
+        <p class="eyebrow">DGPForge known-truth simulation report</p>
+        <h1>Moderate Confounding Heterogeneous Effect N500</h1>
+        <p class="subtitle">Synthetic-data tools generate data that look real. DGPForge generates data whose truth is known, then asks whether candidate estimators recover that truth.</p>
+      </div>
+      <div class="hero-note">
+        <strong>How to read this report</strong>
+        Bias and RMSE are computed against the known ATE. Coverage is the fraction of Monte Carlo intervals containing that truth. The SEs are lightweight model or influence-style approximations for benchmarking, not a full inferential audit.
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="cards" aria-label="Summary cards">
+      <div class="card"><div class="label">True ATE</div><div class="value">2.300</div><div class="subvalue">Analytical truth from configured effect heterogeneity</div></div>
+      <div class="card"><div class="label">Sample sizes</div><div class="value">500</div><div class="subvalue">per Monte Carlo grid</div></div>
+      <div class="card"><div class="label">Replications</div><div class="value">80</div><div class="subvalue">per sample size</div></div>
+      <div class="card"><div class="label">Treatment prevalence</div><div class="value">0.508</div><div class="subvalue">mean across runs</div></div>
+      <div class="card"><div class="label">Positivity status</div><div class="value"><span class="badge ok">Pass</span></div><div class="subvalue">No major positivity warning triggered.</div></div>
+    </section>
+
+    <section>
+      <h2>Known-Truth Workflow</h2>
+      <div class="workflow">
+        <div class="workflow-step">
+          <div class="step-index">1</div>
+          <div><strong>DGP contract</strong><span>YAML defines covariates, treatment, outcome, estimand, and seed.</span></div>
+        </div>
+        
+
+        <div class="workflow-step">
+          <div class="step-index">2</div>
+          <div><strong>Potential outcomes</strong><span>Simulator generates Y0, Y1, treatment, observed Y, and true propensity.</span></div>
+        </div>
+        
+
+        <div class="workflow-step">
+          <div class="step-index">3</div>
+          <div><strong>Known target</strong><span>ATE is computed from the configured potential-outcome model.</span></div>
+        </div>
+        
+
+        <div class="workflow-step">
+          <div class="step-index">4</div>
+          <div><strong>Benchmarks</strong><span>Naive, adjusted OLS, IPW, AIPW, and optional misspecification variants target the same estimand.</span></div>
+        </div>
+        
+
+        <div class="workflow-step">
+          <div class="step-index">5</div>
+          <div><strong>Diagnostics</strong><span>Bias, RMSE, coverage, MCSE, overlap, and warnings close the loop.</span></div>
+        </div>
+        </div>
+    </section>
+
+    <section class="two-column">
+      <div>
+        <h2>DGP Summary</h2>
+        
+    <dl class="dgp-list">
+      <dt>Schema</dt><dd>1.0</dd>
+      <dt>Template</dt><dd>Cross-sectional binary treatment, continuous outcome</dd>
+      <dt>Estimand</dt><dd>marginal_ATE: E[Y(1) - Y(0)]; primary=mean_difference</dd>
+      <dt>Covariates</dt><dd>X1 (confounder), X2 (confounder), X3 (prognostic)</dd>
+      <dt>Treatment</dt><dd>logistic assignment; intercept: -0.2, X1: 0.8, X2: 0.6</dd>
+      <dt>Outcome</dt><dd>linear continuous; treatment effect 2; noise SD 1</dd>
+      <dt>Outcome coefficients</dt><dd>intercept: 0, X1: 1, X2: 0.5, X3: 0.5</dd>
+      <dt>Effect heterogeneity</dt><dd>enabled, modifier=X2, coefficient=0.75</dd>
+      <dt>Unobserved confounder</dt><dd>disabled</dd>
+      <dt>Missing data</dt><dd>disabled</dd>
+      <dt>Clusters</dt><dd>disabled</dd>
+    </dl>
+    
+      </div>
+      <div>
+        <h2>Causal Structure</h2>
+        
+    <div class="dag-wrap">
+      <svg viewBox="0 0 720 190" role="img" aria-label="Causal structure diagram">
+        <defs>
+          <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+            <path d="M 0 0 L 10 5 L 0 10 z"></path>
+          </marker>
+        </defs>
+        <rect x="24" y="54" width="166" height="72" rx="8"></rect>
+        <text x="107" y="82" text-anchor="middle">Covariates X</text>
+        <text x="107" y="105" text-anchor="middle">confounders: X1, X2</text>
+        <rect x="346" y="54" width="114" height="72" rx="8"></rect>
+        <text x="403" y="96" text-anchor="middle">A</text>
+        <rect x="566" y="54" width="114" height="72" rx="8"></rect>
+        <text x="623" y="96" text-anchor="middle">Y</text>
+        <line x1="190" y1="90" x2="345" y2="90" marker-end="url(#arrow)" />
+        <line x1="460" y1="90" x2="566" y2="90" marker-end="url(#arrow)" />
+        <path d="M 190 118 C 310 175, 455 175, 566 118" marker-end="url(#arrow)" fill="none"></path>
+      </svg>
+      <p>Observed treatment assignment: treatment depends on configured covariates. Prognostic-only covariates: X3.</p>
+    </div>
+    
+      </div>
+    </section>
+
+    
+    <section>
+      <h2>Effect Heterogeneity</h2>
+      <p class="note">The individual treatment effect is <code>tau(X) = 2 + 0.75 * X2</code>. The reported true ATE is the marginal average of this CATE over the generated covariate distribution, not just the baseline effect.</p>
+      <div class="cards compact-cards">
+        <div class="card"><div class="label">Baseline effect</div><div class="value">2.000</div></div>
+        <div class="card"><div class="label">Modifier</div><div class="value">X2</div></div>
+        <div class="card"><div class="label">Heterogeneity coefficient</div><div class="value">0.750</div></div>
+        <div class="card"><div class="label">True marginal ATE</div><div class="value">2.300</div></div>
+      </div>
+    </section>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    <section>
+      <h2>Positivity and Overlap</h2>
+      <p class="ok"><strong>No major positivity warning triggered.</strong></p>
+      
+      
+      
+      
+      <div class="table-scroll"><table border="1" class="dataframe data-table compact-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>n</th>
+      <th>Treatment prevalence</th>
+      <th>p-score p01</th>
+      <th>p-score p99</th>
+      <th>Overlap width</th>
+      <th>Warning</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>500.000</td>
+      <td>0.508</td>
+      <td>0.131</td>
+      <td>0.877</td>
+      <td>0.447</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table></div>
+    </section>
+
+    <section>
+      <h2>Estimator Summary</h2>
+      <div class="table-scroll"><table border="1" class="dataframe data-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>n</th>
+      <th>Estimator</th>
+      <th>Mean estimate</th>
+      <th>Bias</th>
+      <th>MCSE bias</th>
+      <th>RMSE</th>
+      <th>MCSE RMSE</th>
+      <th>95% coverage</th>
+      <th>MCSE coverage</th>
+      <th>Valid</th>
+      <th>Failed</th>
+      <th>Not applicable</th>
+      <th>Failure rate</th>
+      <th>Non-ok rate</th>
+      <th>Replications</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>500.000</td>
+      <td>Naive</td>
+      <td>3.117</td>
+      <td>0.817</td>
+      <td>0.015</td>
+      <td>0.828</td>
+      <td>0.016</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>80.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>80.000</td>
+      <td>ok</td>
+    </tr>
+    <tr>
+      <td>500.000</td>
+      <td>Adjusted OLS</td>
+      <td>2.313</td>
+      <td>0.013</td>
+      <td>0.011</td>
+      <td>0.099</td>
+      <td>0.008</td>
+      <td>0.950</td>
+      <td>0.024</td>
+      <td>80.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>80.000</td>
+      <td>ok</td>
+    </tr>
+    <tr>
+      <td>500.000</td>
+      <td>IPW</td>
+      <td>2.312</td>
+      <td>0.012</td>
+      <td>0.012</td>
+      <td>0.110</td>
+      <td>0.010</td>
+      <td>0.988</td>
+      <td>0.012</td>
+      <td>80.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>80.000</td>
+      <td>ok</td>
+    </tr>
+    <tr>
+      <td>500.000</td>
+      <td>AIPW</td>
+      <td>2.313</td>
+      <td>0.013</td>
+      <td>0.011</td>
+      <td>0.100</td>
+      <td>0.009</td>
+      <td>0.950</td>
+      <td>0.024</td>
+      <td>80.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>0.000</td>
+      <td>80.000</td>
+      <td>ok</td>
+    </tr>
+  </tbody>
+</table></div>
+      
+      <p class="note">MCSE columns quantify simulation uncertainty from the finite number of Monte Carlo replications. They are not estimator standard errors within a fitted dataset.</p>
+      <p class="note">At the largest sample size, the lowest RMSE estimator in this run is <strong>Adjusted OLS</strong>. Interpret this as scenario-specific Monte Carlo evidence, not a universal ranking.</p>
+    </section>
+
+    
+
+    <section>
+      <h2>Plots</h2>
+      <div class="plot-grid">
+        <figure class="wide"><img src="bias_rmse.png" alt="Bias and RMSE plot"></figure>
+        <figure><img src="coverage.png" alt="Coverage plot"></figure>
+        <figure><img src="propensity_overlap.png" alt="Propensity overlap plot"></figure>
+        <figure><img src="effect_heterogeneity.png" alt="Effect heterogeneity plot"></figure>
+      </div>
+    </section>
+
+    
+
+    <section>
+      <h2>Reproducibility</h2>
+      <p><code>dgpforge run --config moderate_confounding_heterogeneous_effect_n500/contract.yaml --out moderate_confounding_heterogeneous_effect_n500</code></p>
+      <p class="note">This folder also includes <code>contract.yaml</code> and <code>reproduce.md</code> for self-contained deterministic reruns. Generated artifacts include <code>report.html</code>, <code>estimator_summary.csv</code>, <code>monte_carlo_results.csv</code>, <code>diagnostics.csv</code>, and the plot PNGs referenced above.</p>
+    </section>
+  </main>
+</body>
+</html>

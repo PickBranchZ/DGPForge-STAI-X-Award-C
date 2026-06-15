@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">DGPForge architecture</title>
+  <desc id="desc">Curated parser proposes a DGP contract; deterministic simulation, feature packs, calibration, truth, estimation, diagnostics, and reporting verify the known-truth simulation study.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8.5" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#314760"/>
+    </marker>
+    <style>
+      .bg { fill: #f7fafb; }
+      .box { fill: #ffffff; stroke: #cfd9e6; stroke-width: 2; }
+      .box-strong { fill: #edf4f5; stroke: #9bbdc3; stroke-width: 2; }
+      .title { fill: #172033; font: 700 24px Arial, sans-serif; }
+      .label { fill: #172033; font: 700 20px Arial, sans-serif; }
+      .body { fill: #5f6d82; font: 15px Arial, sans-serif; }
+      .small { fill: #5f6d82; font: 13px Arial, sans-serif; }
+      .arrow { stroke: #314760; stroke-width: 3; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1200" height="560" rx="0"/>
+  <text class="title" x="60" y="56">DGPForge: known-truth simulation-study agent</text>
+  <text class="body" x="60" y="84">The agent layer proposes a contract. Deterministic Python modules verify the statistical evidence.</text>
+
+  <rect class="box" x="60" y="135" width="170" height="120" rx="8"/>
+  <text class="label" x="145" y="170" text-anchor="middle">Brain/LLM</text>
+  <text class="body" x="145" y="198" text-anchor="middle">Curated parser</text>
+  <text class="small" x="145" y="222" text-anchor="middle">proposal only</text>
+
+  <rect class="box-strong" x="285" y="135" width="170" height="120" rx="8"/>
+  <text class="label" x="370" y="170" text-anchor="middle">Memory</text>
+  <text class="body" x="370" y="198" text-anchor="middle">YAML DGP</text>
+  <text class="small" x="370" y="222" text-anchor="middle">contract + logs</text>
+
+  <rect class="box" x="510" y="135" width="170" height="120" rx="8"/>
+  <text class="label" x="595" y="170" text-anchor="middle">Planning</text>
+  <text class="body" x="595" y="198" text-anchor="middle">contract + packs</text>
+  <text class="small" x="595" y="222" text-anchor="middle">n, reps, estimand, targets</text>
+
+  <rect class="box" x="735" y="135" width="170" height="120" rx="8"/>
+  <text class="label" x="820" y="170" text-anchor="middle">Action</text>
+  <text class="body" x="820" y="198" text-anchor="middle">run simulator</text>
+  <text class="small" x="820" y="222" text-anchor="middle">calibrate + benchmark</text>
+
+  <rect class="box-strong" x="960" y="135" width="170" height="120" rx="8"/>
+  <text class="label" x="1045" y="170" text-anchor="middle">Execution</text>
+  <text class="body" x="1045" y="198" text-anchor="middle">deterministic</text>
+  <text class="small" x="1045" y="222" text-anchor="middle">Python evidence</text>
+
+  <path class="arrow" d="M230 195 H278"/>
+  <path class="arrow" d="M455 195 H503"/>
+  <path class="arrow" d="M680 195 H728"/>
+  <path class="arrow" d="M905 195 H953"/>
+
+  <rect class="box" x="185" y="335" width="250" height="118" rx="8"/>
+  <text class="label" x="310" y="370" text-anchor="middle">Observation</text>
+  <text class="body" x="310" y="398" text-anchor="middle">bias, RMSE, MCSE, coverage</text>
+  <text class="small" x="310" y="422" text-anchor="middle">rates, missingness, ICC, overlap</text>
+
+  <rect class="box" x="565" y="335" width="250" height="118" rx="8"/>
+  <text class="label" x="690" y="370" text-anchor="middle">Response</text>
+  <text class="body" x="690" y="398" text-anchor="middle">HTML report</text>
+  <text class="small" x="690" y="422" text-anchor="middle">scenario, grid, calibration reports</text>
+
+  <path class="arrow" d="M1045 255 C1045 322 895 394 823 394"/>
+  <path class="arrow" d="M565 394 H443"/>
+  <path class="arrow" d="M435 394 H558"/>
+  <text class="small" x="60" y="520">Boundary: statistical results do not depend on an LLM call.</text>
+</svg>

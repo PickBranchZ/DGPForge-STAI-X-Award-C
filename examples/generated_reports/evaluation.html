@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DGPForge Evaluation</title>
+  <style>
+    :root {
+      --ink: #172033;
+      --muted: #5f6d82;
+      --line: #d8deea;
+      --panel: #f6f8fb;
+      --accent: #22545f;
+    }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--ink);
+      background: #fff;
+      line-height: 1.58;
+    }
+    main {
+      width: min(860px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 44px 0 64px;
+    }
+    nav {
+      margin-bottom: 24px;
+    }
+    a {
+      color: var(--accent);
+      font-weight: 700;
+      text-decoration: none;
+    }
+    h1 {
+      margin: 0 0 18px;
+      font-size: 2.4rem;
+      line-height: 1.1;
+      letter-spacing: 0;
+    }
+    h2 {
+      margin: 34px 0 12px;
+      font-size: 1.35rem;
+      letter-spacing: 0;
+    }
+    p, li {
+      color: #354258;
+    }
+    ul {
+      padding-left: 1.35rem;
+    }
+    pre {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      padding: 14px;
+      background: var(--panel);
+    }
+    code {
+      font-family: ui-monospace, SFMono-Regular, Consolas, "Liberation Mono", monospace;
+      font-size: 0.92rem;
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="index.html">Back to gallery</a></nav>
+    <h1>Evaluation</h1>
+<p>Known-truth causal DGP simulation for estimator stress-testing.</p>
+<p>This evaluation checks that the submitted artifact is rebuildable, internally consistent, and honest about statistical scope. DGPForge evaluates estimators under known causal truth generated from the configured DGP. This is simulation validation, not real-world causal identification. It does not use official STAI-X data or any external real dataset.</p>
+<h2>What the automated tests cover</h2>
+<p>`python -m pytest` covers the deterministic contract-to-report loop used by the demo gallery:</p>
+<ul>
+<li>schema validation and YAML contract loading/saving;</li>
+<li>contract rejection for unsupported estimator/template combinations;</li>
+<li>deterministic simulation reproducibility under fixed seeds;</li>
+<li>known causal truth engines for continuous, binary, and count/rate outcomes;</li>
+<li>estimator execution and Monte Carlo summary fields;</li>
+<li>estimator failure observability, including status and error messages;</li>
+<li>bias, RMSE, MCSE, coverage, and attempted/valid denominator columns;</li>
+<li>positivity and overlap diagnostics;</li>
+<li>binary-outcome warnings and marginal risk reporting;</li>
+<li>count/rate exposure and overdispersion diagnostics;</li>
+<li>missing-data mechanism handling and full-data truth preservation;</li>
+<li>clustered ICC diagnostics and cluster-robust estimator execution;</li>
+<li>calibration target checks and calibrated-DGP artifacts;</li>
+<li>scenario-grid expansion and combined report generation;</li>
+<li>unmeasured-confounding sensitivity grid generation;</li>
+<li>optional mock LLM draft, extraction, and review workflows;</li>
+<li>context-specific report caveats for unsupported uncertainty;</li>
+<li>static gallery hero-card ordering and required links;</li>
+<li>generated-report manifest integrity checks.</li>
+</ul>
+<p>These tests are regression checks for implemented workflows. They are not exhaustive over every possible DGP, sample size, estimator, or finite-sample edge case.</p>
+<h2>What the benchmark verifies</h2>
+<p>`python benchmark/run_benchmark.py` runs a compact seeded benchmark over representative scenarios. It checks that:</p>
+<ul>
+<li>randomized treatment makes the naive difference approximately unbiased in the smoke setting;</li>
+<li>observed confounding biases the naive estimator;</li>
+<li>adjusted OLS and AIPW move closer to known truth in compatible linear DGPs;</li>
+<li>weak overlap triggers positivity warnings;</li>
+<li>heterogeneous-effect truth is computed as the configured marginal target;</li>
+<li>double-robustness variants show the intended one-correct vs double-misspecified pattern in the seeded DGP;</li>
+<li>binary-outcome truth exposes marginal risks, risk difference, risk ratio, and marginal odds ratio;</li>
+<li>count/rate truth and exposure-offset report generation work;</li>
+<li>missingness preserves full-data truth while masking observed outcomes;</li>
+<li>clustered ICC diagnostics and cluster-robust estimator execution work;</li>
+<li>calibration writes requested-vs-achieved target checks;</li>
+<li>scenario-grid and sensitivity-grid artifacts are generated;</li>
+<li>report caveats remain attached to relevant modules;</li>
+<li>generated report files can be checked by the static manifest.</li>
+</ul>
+<p>The benchmark is deliberately small. It is meant to catch story-breaking regressions in the artifact pipeline, not to prove all statistical properties.</p>
+<h2>What the hero reports demonstrate</h2>
+<p>The static gallery opens with four high-signal reports:</p>
+<ul>
+<li>LLM draft -&gt; causal DGP contract -&gt; validated report: the agent can propose a causal contract, log assumptions, validate the schema, and hand execution to deterministic modules.</li>
+<li>Observed confounding / AIPW recovery: treatment depends on prognostic covariates, so naive estimation is biased while adjusted and AIPW estimators move toward the marginal ATE.</li>
+<li>Count/rate causal estimands: event counts use exposure denominators, and uncertainty is shown only where a valid approximation is implemented.</li>
+<li>Missingness as causal-data complication: MCAR/MAR/MNAR are configured mechanisms, full-data truth remains the benchmark, and MNAR is not claimed to be solved by default.</li>
+</ul>
+<p>The gallery then places all other seeded reports under More examples.</p>
+<h2>What this does not prove</h2>
+<p>DGPForge reports known-truth simulation evidence under configured DGPs. That scope has explicit limits:</p>
+<ul>
+<li>It is not real-data inference.</li>
+<li>It is not causal discovery.</li>
+<li>It does not identify arbitrary DAGs or run do-calculus.</li>
+<li>It does not diagnose an observed external dataset.</li>
+<li>It does not infer confounding, missingness, clustering, or calibration from real data.</li>
+<li>It is not a formal proof of estimator validity.</li>
+<li>It is not a universal guarantee of unbiasedness or coverage.</li>
+<li>It does not claim all estimators are valid outside the configured DGP.</li>
+<li>It does not claim the curated parser can reproduce arbitrary papers.</li>
+<li>It does not use official STAI-X data or external real datasets.</li>
+<li>It does not fill unsupported SE, CI, or coverage values with placeholder uncertainty.</li>
+<li>It does not let LLM output override deterministic truth engines, estimators, diagnostics, or reports.</li>
+</ul>
+<p>The intended interpretation is narrower and more useful: each passing check says the submitted artifact can be rebuilt, its contracts validate, and its seeded DGP stories remain internally consistent.</p>
+<h2>How to reproduce</h2>
+<p>Run the validation sequence from the repository root:</p>
+<pre><code>python -m pip install -e &quot;.[dev]&quot;
+python -m pytest
+python benchmark/run_benchmark.py
+python scripts/build_demo.py
+python scripts/verify_demo.py --check
+python -m py_compile streamlit_app.py</code></pre>
+<p>For stricter local development checks, also run:</p>
+<pre><code>python -m ruff check .
+python -m black --check .
+python -m mypy dgpforge</code></pre>
+<p>`python scripts/build_demo.py` refreshes the curated static reports, `evaluation.html`, and `manifest.json`. `python scripts/verify_demo.py --check` verifies committed generated-report paths, SHA-256 hashes, and file sizes.</p>
+  </main>
+</body>
+</html>

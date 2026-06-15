@@ -1,0 +1,13 @@
+name: causal_ate_expansion_grid
+base_config: causal_ate_observed_confounding.yaml
+sample_sizes: [500, 1000]
+n_replications: 80
+seed: 20260602
+confounding_strengths: [0.0, 0.8, 1.5]
+heterogeneity_coefficients: [0.0, 0.75]
+heterogeneity_modifier: X2
+estimators:
+  - naive_difference
+  - adjusted_ols
+  - ipw
+  - aipw

@@ -1,0 +1,60 @@
+schema_version: "1.0"
+name: weak_overlap_ate_demo
+template: cross_sectional_binary_treatment_continuous_outcome
+sample_sizes: [500, 1000, 2000]
+n_replications: 200
+seed: 20260602
+
+covariates:
+  X1:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: confounder
+  X2:
+    type: binary
+    distribution: bernoulli
+    p: 0.4
+    role: confounder
+  X3:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: prognostic
+
+treatment:
+  name: A
+  type: binary
+  assignment: logistic
+  formula:
+    intercept: -0.3
+    X1: 3.0
+    X2: 2.5
+
+outcome:
+  name: Y
+  type: continuous
+  model: linear
+  treatment_effect: 2.0
+  treatment_effect_heterogeneity:
+    enabled: false
+    modifier: X1
+    coefficient: 0.0
+  coefficients:
+    intercept: 0.0
+    X1: 1.0
+    X2: 0.5
+    X3: 0.5
+  noise_sd: 1.0
+
+estimand:
+  name: marginal_ATE
+  contrast: E[Y(1) - Y(0)]
+
+estimators:
+  - naive_difference
+  - adjusted_ols
+  - ipw
+  - aipw

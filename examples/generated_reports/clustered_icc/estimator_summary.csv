@@ -1,0 +1,3 @@
+sample_size,estimator,mean_estimate,bias,mcse_bias,rmse,mcse_rmse,empirical_sd,mean_estimated_se,coverage,mcse_coverage,n_replications,n_attempted,n_valid,n_coverage,n_failed,n_not_applicable,n_non_ok,failure_rate,non_ok_rate,failure_rate_denominator,first_error_type,first_error_message,status_message
+2000,adjusted_ols_naive_se,1.4989605405023645,-0.0010394594976354198,0.005626475685209118,0.05002001137855657,0.004641474065233895,0.05032472842350917,0.049003896966867945,0.925,0.02944804747347436,80,80,80,80,0,0,0,0.0,0.0,80,,,ok
+2000,adjusted_ols_cluster_robust,1.4989605405023645,-0.0010394594976354198,0.005626475685209118,0.05002001137855657,0.004641474065233895,0.05032472842350917,0.054677615716101746,0.95,0.02436698586202242,80,80,80,80,0,0,0,0.0,0.0,80,,,ok

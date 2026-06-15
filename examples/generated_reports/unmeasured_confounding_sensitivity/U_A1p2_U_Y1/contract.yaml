@@ -1,0 +1,103 @@
+schema_version: '1.0'
+name: U_A1p2_U_Y1
+template: cross_sectional_binary_treatment_binary_outcome
+sample_sizes:
+- 1000
+n_replications: 80
+seed: 20400602
+covariates:
+  X1:
+    type: continuous
+    distribution: normal
+    mean: 0.0
+    sd: 1.0
+    p: null
+    role: confounder
+  X2:
+    type: binary
+    distribution: bernoulli
+    mean: null
+    sd: null
+    p: 0.4
+    role: confounder
+  X3:
+    type: continuous
+    distribution: normal
+    mean: 0.0
+    sd: 1.0
+    p: null
+    role: prognostic
+treatment:
+  name: A
+  type: binary
+  assignment: logistic
+  formula:
+    intercept: -0.2
+    X1: 0.8
+    X2: 0.6
+outcome:
+  name: Y
+  type: binary
+  model: logistic
+  exposure: null
+  treatment_effect: 0.8
+  treatment_effect_heterogeneity:
+    enabled: false
+    modifier: X1
+    coefficient: 0.0
+  coefficients:
+    intercept: -1.0
+    X1: 0.7
+    X2: 0.5
+    X3: 0.3
+  noise_sd: 1.0
+  overdispersion:
+    enabled: false
+    model: negative_binomial
+    theta: 5.0
+estimand:
+  name: marginal_risk_difference
+  contrast: E[Y(1) - Y(0)]
+  primary: risk_difference
+unobserved_confounder:
+  enabled: true
+  name: U
+  distribution: normal
+  mean: 0.0
+  sd: 1.0
+  treatment_coefficient: 1.2
+  outcome_coefficient: 1.0
+  observed: false
+missing_data:
+  enabled: false
+  target: Y
+  mechanism: MCAR
+  rate: 0.0
+  formula: {}
+  apply_to:
+  - Y
+  missing_indicator_prefix: R
+clusters:
+  enabled: false
+  cluster_id: cluster_id
+  n_clusters: 1
+  cluster_size: 1
+  cluster_size_distribution: fixed
+  icc: null
+  random_intercept:
+    outcome_sd: null
+    treatment_sd: 0.0
+  cluster_level_confounder:
+    enabled: false
+    name: Z_cluster
+    distribution: normal
+    mean: 0.0
+    sd: 1.0
+    treatment_coefficient: 0.0
+    outcome_coefficient: 0.0
+estimators:
+- naive_risk_difference
+- logistic_gcomp_risk_difference
+- ipw_risk_difference
+- aipw_risk_difference
+- adjusted_oracle_includes_U

@@ -1,0 +1,3 @@
+target,target_value,achieved_value,absolute_error,tolerance,passed,parameter,calibrated_value,status
+treatment_prevalence,0.35,0.3499999999999999,5.551115123125783e-17,0.01,True,treatment.formula.intercept,-0.9538828953016536,calibrated
+binary_outcome_prevalence_control,0.2,0.2,0.0,0.01,True,outcome.coefficients.intercept,-1.758448962392349,calibrated

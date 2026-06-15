@@ -1,0 +1,42 @@
+# Python caches and build output
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# Local virtual environments
+.venv/
+venv/
+env/
+
+# Local secrets and machine-specific config
+.env
+.env.*
+!.env.example
+
+# DGPForge temporary outputs
+benchmark_tmp/
+test_tmp/
+tmp/
+tmp_*/
+outputs/
+.dgpforge_tmp/
+
+# Browser and screenshot scratch
+browser_tmp/
+browser_profiles/
+playwright-report/
+test-results/
+*.tmp.png
+*.scratch.png
+
+# System files
+.DS_Store

@@ -1,0 +1,65 @@
+schema_version: "1.0"
+name: count_rate_outcome
+template: cross_sectional_binary_treatment_count_outcome
+sample_sizes: [700, 1400]
+n_replications: 80
+seed: 20260610
+
+covariates:
+  X1:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: confounder
+  X2:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: confounder
+  X3:
+    type: binary
+    distribution: bernoulli
+    p: 0.45
+    role: prognostic
+
+treatment:
+  name: A
+  type: binary
+  assignment: logistic
+  formula:
+    intercept: -0.35
+    X1: 0.6
+    X2: 0.4
+
+outcome:
+  name: Y
+  type: count
+  model: poisson
+  exposure:
+    name: exposure
+    distribution: lognormal
+    meanlog: 10.8
+    sdlog: 0.35
+    scale: 100000
+  treatment_effect: 0.35
+  coefficients:
+    intercept: -5.7
+    X1: 0.35
+    X2: 0.25
+    X3: 0.20
+  overdispersion:
+    enabled: false
+    model: negative_binomial
+    theta: 5.0
+
+estimand:
+  name: marginal_rate_difference
+  contrast: sum(E[Y(1)]) / sum(exposure) - sum(E[Y(0)]) / sum(exposure)
+  primary: rate_difference
+
+estimators:
+  - naive_rate_difference
+  - poisson_offset_gcomp_rate_difference
+  - ipw_rate_difference

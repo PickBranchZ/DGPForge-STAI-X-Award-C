@@ -1,0 +1,70 @@
+schema_version: "1.0"
+name: missing_data_mechanisms
+template: cross_sectional_binary_treatment_continuous_outcome
+sample_sizes: [700, 1400]
+n_replications: 80
+seed: 20260611
+
+covariates:
+  X1:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: confounder
+  X2:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: confounder
+  X3:
+    type: binary
+    distribution: bernoulli
+    p: 0.5
+    role: prognostic
+
+treatment:
+  name: A
+  type: binary
+  assignment: logistic
+  formula:
+    intercept: -0.2
+    X1: 0.8
+    X2: 0.5
+
+outcome:
+  name: Y
+  type: continuous
+  model: linear
+  treatment_effect: 1.2
+  coefficients:
+    intercept: 0.5
+    X1: 1.0
+    X2: 0.8
+    X3: 0.4
+  noise_sd: 1.0
+
+estimand:
+  name: marginal_ATE
+  contrast: E[Y(1) - Y(0)]
+  primary: mean_difference
+
+missing_data:
+  enabled: true
+  target: Y
+  mechanism: MAR
+  rate: 0.25
+  formula:
+    intercept: -1.2
+    A: 0.4
+    X1: 0.8
+  apply_to:
+    - Y
+  missing_indicator_prefix: R
+
+estimators:
+  - naive_difference_complete_case
+  - adjusted_ols_complete_case
+  - aipw_complete_case
+  - adjusted_ols_missingness_ipw

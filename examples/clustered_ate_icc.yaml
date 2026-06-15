@@ -1,0 +1,66 @@
+schema_version: "1.0"
+name: clustered_icc
+template: cross_sectional_binary_treatment_continuous_outcome
+sample_sizes: [2000]
+n_replications: 80
+seed: 20260612
+
+covariates:
+  X1:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: confounder
+  X2:
+    type: binary
+    distribution: bernoulli
+    p: 0.45
+    role: prognostic
+
+treatment:
+  name: A
+  type: binary
+  assignment: logistic
+  formula:
+    intercept: -0.15
+    X1: 0.5
+
+outcome:
+  name: Y
+  type: continuous
+  model: linear
+  treatment_effect: 1.5
+  coefficients:
+    intercept: 0.3
+    X1: 0.8
+    X2: 0.5
+  noise_sd: 1.0
+
+clusters:
+  enabled: true
+  cluster_id: cluster_id
+  n_clusters: 50
+  cluster_size: 40
+  cluster_size_distribution: fixed
+  icc: 0.10
+  random_intercept:
+    outcome_sd: 0.5
+    treatment_sd: 0.6
+  cluster_level_confounder:
+    enabled: true
+    name: Z_cluster
+    distribution: normal
+    mean: 0
+    sd: 1
+    treatment_coefficient: 0.4
+    outcome_coefficient: 0.6
+
+estimand:
+  name: marginal_ATE
+  contrast: E[Y(1) - Y(0)]
+  primary: mean_difference
+
+estimators:
+  - adjusted_ols_naive_se
+  - adjusted_ols_cluster_robust

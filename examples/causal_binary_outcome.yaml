@@ -1,0 +1,61 @@
+schema_version: "1.0"
+name: binary_outcome_marginal_risk_demo
+template: cross_sectional_binary_treatment_binary_outcome
+sample_sizes: [800, 1600]
+n_replications: 120
+seed: 20260602
+
+covariates:
+  X1:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: confounder
+  X2:
+    type: binary
+    distribution: bernoulli
+    p: 0.4
+    role: confounder
+  X3:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: prognostic
+
+treatment:
+  name: A
+  type: binary
+  assignment: logistic
+  formula:
+    intercept: -0.2
+    X1: 0.8
+    X2: 0.6
+
+outcome:
+  name: Y
+  type: binary
+  model: logistic
+  treatment_effect: 0.8
+  treatment_effect_heterogeneity:
+    enabled: false
+    modifier: X1
+    coefficient: 0.0
+  coefficients:
+    intercept: -1.0
+    X1: 0.7
+    X2: 0.5
+    X3: 0.3
+  noise_sd: 1.0
+
+estimand:
+  name: marginal_risk_difference
+  contrast: E[Y(1) - Y(0)]
+  primary: risk_difference
+
+estimators:
+  - naive_risk_difference
+  - logistic_gcomp_risk_difference
+  - ipw_risk_difference
+  - aipw_risk_difference

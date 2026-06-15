@@ -1,0 +1,13 @@
+name: calibration_demo
+base_config: causal_binary_outcome.yaml
+
+calibration:
+  enabled: true
+  oracle_n: 50000
+  seed: 20260613
+  targets:
+    treatment_prevalence: 0.35
+    binary_outcome_prevalence_control: 0.20
+  tolerance:
+    treatment_prevalence: 0.01
+    outcome_prevalence: 0.01

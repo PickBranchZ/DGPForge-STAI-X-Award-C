@@ -1,0 +1,2 @@
+sample_size,treatment_prevalence,propensity_min,propensity_p01,propensity_p05,propensity_median,propensity_p95,propensity_p99,propensity_max,treated_propensity_p05,treated_propensity_p95,control_propensity_p05,control_propensity_p95,propensity_overlap_width,positivity_warning,unobserved_confounder_enabled,unobserved_confounder_observed,positivity_message
+1000,0.4998,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.5,0.0,False,False,False,No major positivity warning triggered.

@@ -1,0 +1,63 @@
+schema_version: "1.0"
+name: double_robustness_ate_demo
+template: cross_sectional_binary_treatment_continuous_outcome
+sample_sizes: [800, 1600]
+n_replications: 160
+seed: 20260602
+
+covariates:
+  X1:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: confounder
+  X2:
+    type: binary
+    distribution: bernoulli
+    p: 0.45
+    role: confounder
+  X3:
+    type: continuous
+    distribution: normal
+    mean: 0
+    sd: 1
+    role: prognostic
+
+treatment:
+  name: A
+  type: binary
+  assignment: logistic
+  formula:
+    intercept: -0.15
+    X1: 0.9
+    X2: 0.75
+
+outcome:
+  name: Y
+  type: continuous
+  model: linear
+  treatment_effect: 2.0
+  treatment_effect_heterogeneity:
+    enabled: true
+    modifier: X1
+    coefficient: 0.7
+  coefficients:
+    intercept: 0.0
+    X1: 1.1
+    X2: 1.2
+    X3: 0.6
+  noise_sd: 1.0
+
+estimand:
+  name: marginal_ATE
+  contrast: E[Y(1) - Y(0)]
+
+estimators:
+  - naive_difference
+  - adjusted_ols
+  - adjusted_ols_omit_confounder
+  - aipw
+  - aipw_ps_misspecified
+  - aipw_outcome_misspecified
+  - aipw_double_misspecified

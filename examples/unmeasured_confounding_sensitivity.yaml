@@ -1,0 +1,13 @@
+name: binary_outcome_unmeasured_confounding_sensitivity
+base_config: causal_binary_outcome.yaml
+sample_size: 1000
+n_replications: 80
+seed: 20260602
+U_to_treatment_strength: [0.0, 0.4, 0.8, 1.2]
+U_to_outcome_strength: [0.0, 0.5, 1.0, 1.5]
+estimators:
+  - naive_risk_difference
+  - logistic_gcomp_risk_difference
+  - ipw_risk_difference
+  - aipw_risk_difference
+  - adjusted_oracle_includes_U

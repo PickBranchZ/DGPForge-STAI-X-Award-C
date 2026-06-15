@@ -1,0 +1,2064 @@
+{
+  "files": [
+    {
+      "path": ".nojekyll",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_bytes": 0
+    },
+    {
+      "path": "assets/architecture.svg",
+      "sha256": "02922b9e16cc1351bfa1629d088bf00ba0253546ce9f286d0b5d6fe679e7c1ff",
+      "size_bytes": 4066
+    },
+    {
+      "path": "assets/report_preview.png",
+      "sha256": "5b2b33145556ba8eae9d927cd698b67dd788ba956051381eae36ee553ce76625",
+      "size_bytes": 108201
+    },
+    {
+      "path": "benchmark/results.md",
+      "sha256": "88cc9b2295184df488596758a9914c61ecda10d0d850860c662c6877e568b45b",
+      "size_bytes": 4267
+    },
+    {
+      "path": "binary_outcome/bias_rmse.png",
+      "sha256": "1af029cb18cb3fa49000c456947ba54eec591498d730bc059697080808577ab9",
+      "size_bytes": 96097
+    },
+    {
+      "path": "binary_outcome/contract.yaml",
+      "sha256": "2e7f118459388eb47d29b4a3eacf8dfae5b709e43e3ef400e27167509da71812",
+      "size_bytes": 1059
+    },
+    {
+      "path": "binary_outcome/coverage.png",
+      "sha256": "fb1aed8c8d9f0111094b7eb2c3ba505e295db42aa6ff7d37e327b41b0c05b248",
+      "size_bytes": 58012
+    },
+    {
+      "path": "binary_outcome/diagnostics.csv",
+      "sha256": "74c56a6de62ad04f9aed9144a8273ab0f5f8b7d659e1a3a3c9340d4ff88eb40f",
+      "size_bytes": 1339
+    },
+    {
+      "path": "binary_outcome/estimator_summary.csv",
+      "sha256": "9965feb6d5e151641dfa7657aa7e55759771dcd4ab606174478e344bc56bda69",
+      "size_bytes": 2269
+    },
+    {
+      "path": "binary_outcome/monte_carlo_results.csv",
+      "sha256": "8bee2b0a5afa776d7a085c762af94827bd7991535f137b2bd6ccc349ad03598d",
+      "size_bytes": 214457
+    },
+    {
+      "path": "binary_outcome/propensity_overlap.png",
+      "sha256": "11de1d47752fdd2d3f1b834b9fefc656180c3e77f2da8ef1bca797dd83801c2a",
+      "size_bytes": 37882
+    },
+    {
+      "path": "binary_outcome/report.html",
+      "sha256": "1dc3f1551295d295072b812291189ac039097f91ef98a9ac9ef5abe744b75b41",
+      "size_bytes": 19813
+    },
+    {
+      "path": "binary_outcome/reproduce.md",
+      "sha256": "3450690e44cc3604b17afdda6b11ab815b3dd1668de66d56898627d001de59a3",
+      "size_bytes": 538
+    },
+    {
+      "path": "calibration_demo/calibrated_dgp.yaml",
+      "sha256": "cb7fef61473b479655ed6604c572e6d1da57a11fbf5f4b0caf316e612cb5c7af",
+      "size_bytes": 1912
+    },
+    {
+      "path": "calibration_demo/calibration_report.html",
+      "sha256": "155c048e9dc23aac106ef5f28adb903be89233ff2563e3db96d889a8a58dbfba",
+      "size_bytes": 4415
+    },
+    {
+      "path": "calibration_demo/calibration_summary.csv",
+      "sha256": "88578ecd81792d5d06b8ffcbce87eddc270eabf6435d7629bcc1266d6c00631f",
+      "size_bytes": 354
+    },
+    {
+      "path": "calibration_demo/run_check/bias_rmse.png",
+      "sha256": "08e95531f5f9e98c735ea77d3a5bdf43776aff077daf9d44fd3bb645875aedec",
+      "size_bytes": 97065
+    },
+    {
+      "path": "calibration_demo/run_check/coverage.png",
+      "sha256": "2bb6083123173f45d55c5a090ccdf1be31c8a8f2bc47e90f657ef9b0c9d1cc73",
+      "size_bytes": 56665
+    },
+    {
+      "path": "calibration_demo/run_check/diagnostics.csv",
+      "sha256": "f4eb0217c897b90645e6e9bb71e6b19c31aaf0c96b8f8b01eff0b6b51679a6f4",
+      "size_bytes": 1365
+    },
+    {
+      "path": "calibration_demo/run_check/estimator_summary.csv",
+      "sha256": "7d0b651621e6e5dfdd2fac86c9a8badc7ecd295ad2fa1e5fc84cb8f25694bd4d",
+      "size_bytes": 2022
+    },
+    {
+      "path": "calibration_demo/run_check/monte_carlo_results.csv",
+      "sha256": "2e99dc698efe0878251391ca8add9a350e81b732620f4aed96c9b3114b07aa40",
+      "size_bytes": 209295
+    },
+    {
+      "path": "calibration_demo/run_check/propensity_overlap.png",
+      "sha256": "6850f8139549a1b0584567564e1de75fa7213cbc041d5d5d0a52562156739344",
+      "size_bytes": 35574
+    },
+    {
+      "path": "calibration_demo/run_check/report.html",
+      "sha256": "28bb2c2f9be98663496e614e02fcaf59b186d22c9e2039bf61cd9db2bebaaf42",
+      "size_bytes": 18605
+    },
+    {
+      "path": "clustered_icc/bias_rmse.png",
+      "sha256": "4be1d4e261defb6276ae622d86d9a1a1cdd38b566786c001e690f08ecb4c79e1",
+      "size_bytes": 66239
+    },
+    {
+      "path": "clustered_icc/contract.yaml",
+      "sha256": "010e6b5e752a0bc2fadc9ff1bd4b187018e4c35579f6dbfc958866eee1b68433",
+      "size_bytes": 1136
+    },
+    {
+      "path": "clustered_icc/coverage.png",
+      "sha256": "263dd8d5ea97be1c700d23161cc05c53e8a409529de0d72978516f6bf39f9f6f",
+      "size_bytes": 43487
+    },
+    {
+      "path": "clustered_icc/diagnostics.csv",
+      "sha256": "f331021013768826168be3a11340e4ba33388ee6f375baafb187e38fb1c6c8ad",
+      "size_bytes": 1018
+    },
+    {
+      "path": "clustered_icc/estimator_summary.csv",
+      "sha256": "434b72c3e820c7eee8a94ebd154259a14285c83332b91ed6628931510de0b0ff",
+      "size_bytes": 772
+    },
+    {
+      "path": "clustered_icc/monte_carlo_results.csv",
+      "sha256": "866af26715fdcd3c34a22b6d4bca03cdbf907f0adb91e31800850067c06cc7ad",
+      "size_bytes": 32929
+    },
+    {
+      "path": "clustered_icc/propensity_overlap.png",
+      "sha256": "c79c6bf6fdb224842fada97ceaf68b1616439a5d7f33d1a21ddec211b8b4d85a",
+      "size_bytes": 39232
+    },
+    {
+      "path": "clustered_icc/report.html",
+      "sha256": "d550ee285a84ed150485decc55ea2a8a86bc1c404f3a59181af3b092b0050b96",
+      "size_bytes": 17878
+    },
+    {
+      "path": "clustered_icc/reproduce.md",
+      "sha256": "edf320e2b86d55e3dbb591e4ee6e8fb7c62d819da7d7e8b2eae61a780478dd46",
+      "size_bytes": 533
+    },
+    {
+      "path": "config_review_demo/deterministic_checks.json",
+      "sha256": "7186314b46359228e05e34f7e61cf4e81c6ef7fd06734b5428d36a5e20903386",
+      "size_bytes": 1997
+    },
+    {
+      "path": "config_review_demo/deterministic_checks.md",
+      "sha256": "76f870c76950fd9399efb968bc8d4a2c12668b9768bde596a48c882618c9489f",
+      "size_bytes": 1956
+    },
+    {
+      "path": "config_review_demo/review_report.md",
+      "sha256": "9b644dd67998820727ed767bc9de6dbb10cb5c82af35e5536b55248a9ffc961a",
+      "size_bytes": 1611
+    },
+    {
+      "path": "config_review_demo/suggested_questions.md",
+      "sha256": "bbafe8f3c8061d4097c5817d951e54d8c6e99467784bd6f1ff51a6eddceab605",
+      "size_bytes": 248
+    },
+    {
+      "path": "count_rate_outcome/bias_rmse.png",
+      "sha256": "ad0550e7163e1fb4d9bbd7ca72d746832f399ab5d22aec42319f6c18aa1ea336",
+      "size_bytes": 88893
+    },
+    {
+      "path": "count_rate_outcome/contract.yaml",
+      "sha256": "0621fdecf9c9fc860ae856b37111cc99d42627d264b32cf0c1a4df868b13ba78",
+      "size_bytes": 1157
+    },
+    {
+      "path": "count_rate_outcome/coverage.png",
+      "sha256": "08ca96d3ddb6084567b0c13f56b621bc6be66d2177c7f375ab63cb8b1d24ae77",
+      "size_bytes": 46451
+    },
+    {
+      "path": "count_rate_outcome/diagnostics.csv",
+      "sha256": "d4f4e51b0458d9040ce09ef6313fd073a4aba054396c452f85bf90ebddbb2175",
+      "size_bytes": 1660
+    },
+    {
+      "path": "count_rate_outcome/estimator_summary.csv",
+      "sha256": "fc0877eb1ebdc38bb78f578b9e86fa23718cd0245f592578a8f54b43673a8125",
+      "size_bytes": 1562
+    },
+    {
+      "path": "count_rate_outcome/monte_carlo_results.csv",
+      "sha256": "f962cadff5b4401bc73b3ba5aa8809659024d79d19f30a4ddaa5840feaf443b3",
+      "size_bytes": 98983
+    },
+    {
+      "path": "count_rate_outcome/propensity_overlap.png",
+      "sha256": "d15c5c4710df36b9b0a4a576c501b3bebc9046c58b3b9e290a970db1fb0b4d0a",
+      "size_bytes": 40032
+    },
+    {
+      "path": "count_rate_outcome/report.html",
+      "sha256": "c3d9af010fe9ac038bc374956a70345a256e374c2da580544b24bb5655f1ab07",
+      "size_bytes": 20406
+    },
+    {
+      "path": "count_rate_outcome/reproduce.md",
+      "sha256": "4cac22d59ef70348acaa539cde789c8572fb6f025599897bb11b88c9c378cb31",
+      "size_bytes": 546
+    },
+    {
+      "path": "double_robustness/bias_rmse.png",
+      "sha256": "a3c10b5a32238d9f1ac2948bd905c1a9fbdeec95bcbb7f9d9b191ec07d6b41b0",
+      "size_bytes": 91547
+    },
+    {
+      "path": "double_robustness/contract.yaml",
+      "sha256": "f4c1943920de7e77c7ca052226236c4e2fcbe4593c9f1ca96b8f4df01bf4c8c4",
+      "size_bytes": 1074
+    },
+    {
+      "path": "double_robustness/coverage.png",
+      "sha256": "bc19845ba1039df632396b1ab8af5ef6e57d7cdb2cafeb200f637078836fe8e3",
+      "size_bytes": 65633
+    },
+    {
+      "path": "double_robustness/diagnostics.csv",
+      "sha256": "f7de83d3cb73a9f4d064deffc793cf1fac1d9100bf82447c621ed1d0de6b6670",
+      "size_bytes": 964
+    },
+    {
+      "path": "double_robustness/effect_heterogeneity.png",
+      "sha256": "36596bdf6cc948e6072397d97455e8516dc7036cd8d95bce93d752274e1b29bf",
+      "size_bytes": 48584
+    },
+    {
+      "path": "double_robustness/estimator_summary.csv",
+      "sha256": "dc2c72214824368eed01578ff5d8d6f398154291f2d5309fb46a3f892c0c9d60",
+      "size_bytes": 3381
+    },
+    {
+      "path": "double_robustness/monte_carlo_results.csv",
+      "sha256": "2e4e21bddbb2a95f2fe2964a83f88aa7a20e62f68fb9dd50d053c724bcdbf211",
+      "size_bytes": 444723
+    },
+    {
+      "path": "double_robustness/propensity_overlap.png",
+      "sha256": "933f5afd0144d1e0c7cb9770d86c4866477dcb5b28eabfa6a3f18de32350e903",
+      "size_bytes": 38498
+    },
+    {
+      "path": "double_robustness/report.html",
+      "sha256": "d2e43a0c2ec3ef244ab0ca8c5586755a63a2c4999c070d19021eb58fee28dcce",
+      "size_bytes": 23900
+    },
+    {
+      "path": "double_robustness/reproduce.md",
+      "sha256": "4a6d5774391fc9316b66e504de0131a112cdd72b5cc29b74c187541a03809fbf",
+      "size_bytes": 548
+    },
+    {
+      "path": "evaluation.html",
+      "sha256": "7fd26b478cb81b76a8291f0b64a6b157c356fa2ff4e1e0abf9e721486ee1cc92",
+      "size_bytes": 7777
+    },
+    {
+      "path": "EVALUATION.md",
+      "sha256": "38853e52ce0aebd697e476ae95f68b82c9763bb0031028eceec4b8828cf5a73d",
+      "size_bytes": 5767
+    },
+    {
+      "path": "from_text_demo/assumptions_log.md",
+      "sha256": "a2cbc36a18e4b9e7c5b23546c9ed9f9fabb69dff3f1dcc8d9410cc09aa89a3fb",
+      "size_bytes": 340
+    },
+    {
+      "path": "from_text_demo/bias_rmse.png",
+      "sha256": "fc72f8c5f0ce3693c25958d9418f86956756c82d53d94d9425a15d702bb28aeb",
+      "size_bytes": 66743
+    },
+    {
+      "path": "from_text_demo/contract.yaml",
+      "sha256": "b8a9096f8f1a184103d339454a8daff2756171a8a094cf2ffe78e35beee4e51b",
+      "size_bytes": 1805
+    },
+    {
+      "path": "from_text_demo/coverage.png",
+      "sha256": "a6d08575e5afbf33d388b8639e5f678bfc283f07db3342a2111185b30da936c8",
+      "size_bytes": 46199
+    },
+    {
+      "path": "from_text_demo/diagnostics.csv",
+      "sha256": "c56d09133d6260102cc02b2fb4be027c82daddabe06ad70704d0d3a9a6b61ed4",
+      "size_bytes": 656
+    },
+    {
+      "path": "from_text_demo/estimator_summary.csv",
+      "sha256": "50e0ad7d32279f58c308fbc9c20f29071ffb721e0e036f6fc40fd7696013faaa",
+      "size_bytes": 1141
+    },
+    {
+      "path": "from_text_demo/monte_carlo_results.csv",
+      "sha256": "062624ad560db17dbda003f8cf3fa8e06bd7efe82b1a50e1e5fa8be027ad5fa4",
+      "size_bytes": 62582
+    },
+    {
+      "path": "from_text_demo/propensity_overlap.png",
+      "sha256": "4e1337c553fd4c401cd1a10e795a4af385acfecb109cb80b8d6f2ccf3f025617",
+      "size_bytes": 35274
+    },
+    {
+      "path": "from_text_demo/report.html",
+      "sha256": "19faea9361f96d1dad6d69f6b3c43996eea3a672b76d27a46ab4051bb9d3d685",
+      "size_bytes": 17163
+    },
+    {
+      "path": "from_text_demo/reproduce.md",
+      "sha256": "f283fb6b604e7ad8373166af62a01ae414431bf748f722932a99933ab4e782f8",
+      "size_bytes": 545
+    },
+    {
+      "path": "heterogeneous_effect/bias_rmse.png",
+      "sha256": "9ea5ad52112ffd26075aec3ceca78ad1c4db47d0c4471ce5d967dc2e9f45a132",
+      "size_bytes": 79002
+    },
+    {
+      "path": "heterogeneous_effect/contract.yaml",
+      "sha256": "c17514e594573f728faa4616d610afef77614c3db3c74cb9f110df5eda188ed8",
+      "size_bytes": 971
+    },
+    {
+      "path": "heterogeneous_effect/coverage.png",
+      "sha256": "86a19946bc6cab2735d090b3929b85747e7d0fa9b188824f50134a40418b7091",
+      "size_bytes": 50931
+    },
+    {
+      "path": "heterogeneous_effect/diagnostics.csv",
+      "sha256": "6d89a64e01d27931dff3c577a75dd8a6e432b09ba62d14a1301291e425c93380",
+      "size_bytes": 1271
+    },
+    {
+      "path": "heterogeneous_effect/effect_heterogeneity.png",
+      "sha256": "54a8e3f011586c63c1522c22530d4c8de8f61afa59cc4aa45a8de283950884e0",
+      "size_bytes": 36459
+    },
+    {
+      "path": "heterogeneous_effect/estimator_summary.csv",
+      "sha256": "2b1bdbe8a3002a0f7df5dbc7f3f14800c85ca601d812d509fcc8203f8cb92c0c",
+      "size_bytes": 2875
+    },
+    {
+      "path": "heterogeneous_effect/monte_carlo_results.csv",
+      "sha256": "2b944523418d9075f9c9ca49d717ad55b8a6e716bfe5a6b89445d344827d1d7f",
+      "size_bytes": 450288
+    },
+    {
+      "path": "heterogeneous_effect/propensity_overlap.png",
+      "sha256": "f2a4f16eaa59b7fe59230470e5330533e31e087d1170d7eefaf14b0a42784348",
+      "size_bytes": 35165
+    },
+    {
+      "path": "heterogeneous_effect/report.html",
+      "sha256": "5176dc916d74893b97511aa219f61bd4ffa461f15d07b5a184ee8c7774f4be4e",
+      "size_bytes": 20827
+    },
+    {
+      "path": "heterogeneous_effect/reproduce.md",
+      "sha256": "df55cc8a5756d795d7237684727d59794c9be3bfa6d6261f08141abf2bf3bffd",
+      "size_bytes": 554
+    },
+    {
+      "path": "index.html",
+      "sha256": "fd35244ec86855c31e301641723f576d24b1c0065ccd3098c63fa0dd7c63e52b",
+      "size_bytes": 18377
+    },
+    {
+      "path": "llm_draft_demo/agent_run_summary.md",
+      "sha256": "3c459e4f999a41a9788f575c2ca598b9981467d3ae9fbb188f663bbc0c0799a0",
+      "size_bytes": 710
+    },
+    {
+      "path": "llm_draft_demo/assumptions_log.md",
+      "sha256": "da1d6c969a07b4f206637780e83072befa0abfd3dfbd9602f73524feb541bd53",
+      "size_bytes": 491
+    },
+    {
+      "path": "llm_draft_demo/bias_rmse.png",
+      "sha256": "230ea824079abed3733fb467d4b38e1d2eb0c069c2439d43ea04f06ca7fc58c8",
+      "size_bytes": 64756
+    },
+    {
+      "path": "llm_draft_demo/contract.yaml",
+      "sha256": "fe82c942d3fb21d4f0cf5988e6e35e5d229ff1cd43ee2fbb7acbb9b46f529b92",
+      "size_bytes": 1806
+    },
+    {
+      "path": "llm_draft_demo/coverage.png",
+      "sha256": "d43262dbfffac2947830fddd51c0e28aa638bd3a28eb5a485a3ebc3281a8819c",
+      "size_bytes": 45447
+    },
+    {
+      "path": "llm_draft_demo/diagnostics.csv",
+      "sha256": "ac6ac38c5a6cbc424b920b6dd5595d94a90ab49465ea1662a4068c240fd1a939",
+      "size_bytes": 671
+    },
+    {
+      "path": "llm_draft_demo/draft_dgp.yaml",
+      "sha256": "fe82c942d3fb21d4f0cf5988e6e35e5d229ff1cd43ee2fbb7acbb9b46f529b92",
+      "size_bytes": 1806
+    },
+    {
+      "path": "llm_draft_demo/effect_heterogeneity.png",
+      "sha256": "288db81bbc040423e4523831d2c2cb8e60165a340fc5528a599ce10c7c5aa658",
+      "size_bytes": 51774
+    },
+    {
+      "path": "llm_draft_demo/estimator_summary.csv",
+      "sha256": "1200f1df49595fc29bc40c77e65a8f728de86be45eea06b9b5aae57c5e17438c",
+      "size_bytes": 1135
+    },
+    {
+      "path": "llm_draft_demo/monte_carlo_results.csv",
+      "sha256": "1725947c6364f067b469fa705fe21c2dc93721c41fcbb95da8ddb82d922bac2d",
+      "size_bytes": 22504
+    },
+    {
+      "path": "llm_draft_demo/propensity_overlap.png",
+      "sha256": "f058e9df928c10cfc6ed908d8fc2acd9acd6376abe0c9b6b277348774dace292",
+      "size_bytes": 35274
+    },
+    {
+      "path": "llm_draft_demo/report.html",
+      "sha256": "c07bd07eb1d9749a41b0826cf21141021d04d460ac72d408ea094bcbc0586698",
+      "size_bytes": 18493
+    },
+    {
+      "path": "llm_draft_demo/reproduce.md",
+      "sha256": "a9f1927ddd1803c5dda6d415081c83cfc3491fc437d832e00a9f611941a17b67",
+      "size_bytes": 713
+    },
+    {
+      "path": "llm_draft_demo/source_trace.md",
+      "sha256": "149f99d70d6a1306d0d6337a1c580c1e10b572ff63bb2522c5f3f189cd835c08",
+      "size_bytes": 287
+    },
+    {
+      "path": "llm_draft_demo/unresolved_questions.md",
+      "sha256": "47ab4b7b3b4049d6322889f0888b564a536a8e75a2cfe6b79e308d2e485413dd",
+      "size_bytes": 192
+    },
+    {
+      "path": "llm_draft_demo/validation_report.md",
+      "sha256": "5e19c49959cfa7d2b83cd352d7f9884798b8a771c610d21e34c4356074ab1109",
+      "size_bytes": 258
+    },
+    {
+      "path": "missing_data/bias_rmse.png",
+      "sha256": "c538b81a8943e9721cdd6dc7a0a47ceec82e8a08b05a5613cc1e68b5a5623aa4",
+      "size_bytes": 74842
+    },
+    {
+      "path": "missing_data/contract.yaml",
+      "sha256": "5f612e65fe88367fda70c69e87e8a04055abcff04b559d713ea1f7a642e34825",
+      "size_bytes": 1139
+    },
+    {
+      "path": "missing_data/coverage.png",
+      "sha256": "13a4e2d74a59c3f3350b4014610b84f412215e6f9841f66b5320f7094c48c415",
+      "size_bytes": 53350
+    },
+    {
+      "path": "missing_data/diagnostics.csv",
+      "sha256": "14f3f1b893b11c07458b4cbfac960220878c43e2c4dd8b6e17dfcc20097574af",
+      "size_bytes": 1530
+    },
+    {
+      "path": "missing_data/estimator_summary.csv",
+      "sha256": "6d26a2b968e8a8c0fc7f3b16e49628982213e152cd5c4e63a38472a8d993091c",
+      "size_bytes": 2032
+    },
+    {
+      "path": "missing_data/monte_carlo_results.csv",
+      "sha256": "abb031aacd1aedb7f8b9ecb64f2d57f1860e7dce46dc42cf5517accc0ff41c25",
+      "size_bytes": 129777
+    },
+    {
+      "path": "missing_data/propensity_overlap.png",
+      "sha256": "55b2fbaaf4708e8789f4369edc8c00d23cb0cbe6ac3ac68f38859ebd9eac70b3",
+      "size_bytes": 37454
+    },
+    {
+      "path": "missing_data/report.html",
+      "sha256": "b9dbbc81d7f2b032619c9eae60e449ef15210f32a48313dd8a63fc93cb5c651b",
+      "size_bytes": 20236
+    },
+    {
+      "path": "missing_data/reproduce.md",
+      "sha256": "dfd221e39b4dc9073a9b1180d9db2f50ed139db3c9f39abd486f76d87eba7e8d",
+      "size_bytes": 538
+    },
+    {
+      "path": "observed_confounding/bias_rmse.png",
+      "sha256": "c72c65bc4912e59fc220415ceda1604e4e650e2755fec0ca9cda49513d8de38e",
+      "size_bytes": 77808
+    },
+    {
+      "path": "observed_confounding/contract.yaml",
+      "sha256": "20a774d4e0a85ac95f9ad7a5f6e114b078d4b1af6ddb490290b221ea00ef7956",
+      "size_bytes": 972
+    },
+    {
+      "path": "observed_confounding/coverage.png",
+      "sha256": "a6bbf8c76e0af42b87376b82f3d9d7d66297d83d59e5752111b9d0f0ad4826c1",
+      "size_bytes": 51245
+    },
+    {
+      "path": "observed_confounding/diagnostics.csv",
+      "sha256": "6d89a64e01d27931dff3c577a75dd8a6e432b09ba62d14a1301291e425c93380",
+      "size_bytes": 1271
+    },
+    {
+      "path": "observed_confounding/estimator_summary.csv",
+      "sha256": "6b2711abe70610f5a777445ad26c246c9682b825d351c3b8f65b2186cc30756b",
+      "size_bytes": 2850
+    },
+    {
+      "path": "observed_confounding/monte_carlo_results.csv",
+      "sha256": "8de5af0ba97a7647069745f9818e97416af080fbdd7694e1b3e81557d0b30651",
+      "size_bytes": 450714
+    },
+    {
+      "path": "observed_confounding/propensity_overlap.png",
+      "sha256": "f2a4f16eaa59b7fe59230470e5330533e31e087d1170d7eefaf14b0a42784348",
+      "size_bytes": 35165
+    },
+    {
+      "path": "observed_confounding/report.html",
+      "sha256": "01cadcdbc363c741e6f41a20cd0a47696b4e594b0edc83adeba38999348b4e23",
+      "size_bytes": 19939
+    },
+    {
+      "path": "observed_confounding/reproduce.md",
+      "sha256": "8bb6698dd99345e8359452bca3e62e5b97ef4cddfc558f40770fc0fcab24a2c8",
+      "size_bytes": 554
+    },
+    {
+      "path": "paper_llm_demo/agent_run_summary.md",
+      "sha256": "1e46749a5fbd12ffc7828dcff7d86bf26761f9c7fe81c9943d81db6442ac5986",
+      "size_bytes": 1043
+    },
+    {
+      "path": "paper_llm_demo/assumptions_log.md",
+      "sha256": "3262bfe1418ce967f3231f673bebb97274571a9b15870dfd8cf626f66a0fefd9",
+      "size_bytes": 712
+    },
+    {
+      "path": "paper_llm_demo/bias_rmse.png",
+      "sha256": "242976927e5e7d330346500bcc63c040b03413c8ec18c4f7e7aacfb5a15092ea",
+      "size_bytes": 63600
+    },
+    {
+      "path": "paper_llm_demo/contract.yaml",
+      "sha256": "04be76f49876789170a0a311cc0027467481150dc0e25d4c0967330a1139d721",
+      "size_bytes": 1805
+    },
+    {
+      "path": "paper_llm_demo/coverage.png",
+      "sha256": "3b7412f2d85af03b38b1403566e5899cce38c37d9d7a9358485f2acdce4d2952",
+      "size_bytes": 45491
+    },
+    {
+      "path": "paper_llm_demo/diagnostics.csv",
+      "sha256": "ac6ac38c5a6cbc424b920b6dd5595d94a90ab49465ea1662a4068c240fd1a939",
+      "size_bytes": 671
+    },
+    {
+      "path": "paper_llm_demo/draft_dgp.yaml",
+      "sha256": "04be76f49876789170a0a311cc0027467481150dc0e25d4c0967330a1139d721",
+      "size_bytes": 1805
+    },
+    {
+      "path": "paper_llm_demo/estimator_summary.csv",
+      "sha256": "fa7ad10f9d871f501eee0446532c0a48ed65ac2bbe3f2577118aabb204c5f714",
+      "size_bytes": 1133
+    },
+    {
+      "path": "paper_llm_demo/extraction_trace.md",
+      "sha256": "b034a428dfc9c37f06aa0a9df467f0e82a2b5f30feb647b1942fac8657a4637b",
+      "size_bytes": 291
+    },
+    {
+      "path": "paper_llm_demo/monte_carlo_results.csv",
+      "sha256": "8422026f951c24c9fe7baba50731b03243195c658d73b15e2f4d87564c1df7a2",
+      "size_bytes": 22527
+    },
+    {
+      "path": "paper_llm_demo/propensity_overlap.png",
+      "sha256": "f058e9df928c10cfc6ed908d8fc2acd9acd6376abe0c9b6b277348774dace292",
+      "size_bytes": 35274
+    },
+    {
+      "path": "paper_llm_demo/report.html",
+      "sha256": "f42ac174c5fb5059578b8663a862ad905c7363189fea54b2b808e9b861cae8d2",
+      "size_bytes": 17667
+    },
+    {
+      "path": "paper_llm_demo/reproduce.md",
+      "sha256": "b6f72b95453a0b5f33e5beadf4beb8007bd5cb5e8e8c6e08bf9aa88876d1ce1c",
+      "size_bytes": 568
+    },
+    {
+      "path": "paper_llm_demo/unresolved_questions.md",
+      "sha256": "47ab4b7b3b4049d6322889f0888b564a536a8e75a2cfe6b79e308d2e485413dd",
+      "size_bytes": 192
+    },
+    {
+      "path": "paper_llm_demo/validation_report.md",
+      "sha256": "5e19c49959cfa7d2b83cd352d7f9884798b8a771c610d21e34c4356074ab1109",
+      "size_bytes": 258
+    },
+    {
+      "path": "randomized/bias_rmse.png",
+      "sha256": "5336a080b071ee9262cea18dd1ad664d7198549163a6c57551db506729e204f0",
+      "size_bytes": 119432
+    },
+    {
+      "path": "randomized/contract.yaml",
+      "sha256": "b09dd1a6fb2860020f3559e9d3249ac7556d6a564b76b8ebb91aa94a18a143bd",
+      "size_bytes": 939
+    },
+    {
+      "path": "randomized/coverage.png",
+      "sha256": "411875c63f03aa173e407cde10348d81df55b279b8a5c1d967088fd94baafa0b",
+      "size_bytes": 51968
+    },
+    {
+      "path": "randomized/diagnostics.csv",
+      "sha256": "f05f286edf70998079e0dc577c363f48803b57860a286d2b5e8cbe7d252d1ad5",
+      "size_bytes": 711
+    },
+    {
+      "path": "randomized/estimator_summary.csv",
+      "sha256": "28d15d5a50479a3ade8f8aa0598de35d160d7ac3bdc10c106f3a0ea7c0df88e1",
+      "size_bytes": 2920
+    },
+    {
+      "path": "randomized/monte_carlo_results.csv",
+      "sha256": "7c40dc446432a64c70c28683c2ac382de4f6423b8bd73dada3e36bde4467cb2d",
+      "size_bytes": 378134
+    },
+    {
+      "path": "randomized/propensity_overlap.png",
+      "sha256": "3be8e06f40c213e246b54fcecfa765a6709e97e570b697a70705778f5fa9c18f",
+      "size_bytes": 35872
+    },
+    {
+      "path": "randomized/report.html",
+      "sha256": "a50196e666a93afa929d81aac5b7239aabeb8a967d6f14f905d22af5e153ca7b",
+      "size_bytes": 19801
+    },
+    {
+      "path": "randomized/reproduce.md",
+      "sha256": "a4c4d3efa93ecdb40a7c43038e0c465a439973b2e235913667a5d88ef7576cd5",
+      "size_bytes": 534
+    },
+    {
+      "path": "scenario_grid/grid_bias.png",
+      "sha256": "981313b12416a570ba0a0d6956329ba87cd59544d5d1fbed3a9752df04bcf489",
+      "size_bytes": 78556
+    },
+    {
+      "path": "scenario_grid/grid_coverage.png",
+      "sha256": "df1aefa88adbfcd4df9b59a1eeeb515ee4c80994b65b20613139cefffd67a2a3",
+      "size_bytes": 58093
+    },
+    {
+      "path": "scenario_grid/grid_results.csv",
+      "sha256": "b0b2f75c7621b368fc244b4b9022f6dff852b69a4b4f7ab46f9d415b628a935b",
+      "size_bytes": 15155
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/bias_rmse.png",
+      "sha256": "a5f233f78a6eb4ae7d33d12a38dee12fefc6ce9c07168d6f829f19db35ccfa32",
+      "size_bytes": 65494
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/contract.yaml",
+      "sha256": "73f4287301fa2cc4c0d2c0fd098f0e67150163078929a7a14b20d0aa35d9aee9",
+      "size_bytes": 1823
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/coverage.png",
+      "sha256": "56ad767b243b68fbc30cb78837cd848f22e56ec4c9315d5a52fc4b65374149f2",
+      "size_bytes": 45568
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/diagnostics.csv",
+      "sha256": "dced888263fdb442c3472a64faee703a7228dde199e61d0506aba37a9370e0c6",
+      "size_bytes": 659
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/estimator_summary.csv",
+      "sha256": "c638cf76d7004b5cddeec5590c65d681482e5d6c4334e2e40da1150bd675eee3",
+      "size_bytes": 1133
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/monte_carlo_results.csv",
+      "sha256": "0577f056a5dc96cefa74dc291743b94e14d327c7ff18d551e81f6d368d2c284b",
+      "size_bytes": 60180
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/propensity_overlap.png",
+      "sha256": "8d2388c8a3888800f93358f4133ca4706935548401ed91fdb10d8067fa6a700b",
+      "size_bytes": 35232
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/report.html",
+      "sha256": "5e3d122b37c393af5b58e6481a654211dfc960578be75f70fd08b06065890299",
+      "size_bytes": 16776
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n1000/reproduce.md",
+      "sha256": "5861b562000b5faae7252238c8917f71594b7117854e2f7b839227aa34bcd013",
+      "size_bytes": 560
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/bias_rmse.png",
+      "sha256": "7b78aa796d70b35096ee6c6082a1c9514b4ff485d06dffe6255980758181c642",
+      "size_bytes": 65132
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/contract.yaml",
+      "sha256": "717f07d427de33bfe85c36747c5ef39e2fceda67a6952cc72c68e0ac8ff2c353",
+      "size_bytes": 1821
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/coverage.png",
+      "sha256": "65104aa54fd14deb4fe899b9fbe7cf25c3736e3c8a1f0b0aee29962af1b35da5",
+      "size_bytes": 45072
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/diagnostics.csv",
+      "sha256": "466fed88d3bb8a99d51eb07ed2bd87be897b66f619253f52745f0bf3cb05a9db",
+      "size_bytes": 660
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/estimator_summary.csv",
+      "sha256": "f2a496ad2b654ffd85faa99d912b04f6005f4baef4ccea83162c8bc6c72596a2",
+      "size_bytes": 1128
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/monte_carlo_results.csv",
+      "sha256": "9b41094c5c2c32e52952d89e83b1aa6531039af1847d894686c165f4d67e64e9",
+      "size_bytes": 59728
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/propensity_overlap.png",
+      "sha256": "5a45563bab03f01e79429be9117e68dd07d486229cc65bf32bd5a3bb17609646",
+      "size_bytes": 33945
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/report.html",
+      "sha256": "ae52f58be2ba5298a9184037cae8a97335f1c94a1bd2bedce33b8ee6914cdbc1",
+      "size_bytes": 16768
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_constant_effect_n500/reproduce.md",
+      "sha256": "6a4f585e7a72f55447c82d00af5a6be61448b9fc18a5954e5c8101a309ed86fb",
+      "size_bytes": 558
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/bias_rmse.png",
+      "sha256": "094ad3672648d7ae9ffb20f5c109942fa938046a3e785a13a2bea4949ba03f5a",
+      "size_bytes": 68266
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/contract.yaml",
+      "sha256": "1319ccac4ebb7c432ada22892cc429dd7bbab3821c3fd61c3c37381fb9f0c5be",
+      "size_bytes": 1828
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/coverage.png",
+      "sha256": "940901bfcce9243238842a12530a522d68a12afc1b44efffabb33d6e9ae2d5de",
+      "size_bytes": 45133
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/diagnostics.csv",
+      "sha256": "d85660e38d86d0f8106461e6e252390e84f0533e43ae97512e379e086420f937",
+      "size_bytes": 660
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/effect_heterogeneity.png",
+      "sha256": "7fb8b486c9914381223a05e0c537a8a2990d5857f3c63a6e0dad57045e3d3d20",
+      "size_bytes": 36496
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/estimator_summary.csv",
+      "sha256": "5dd41cdd84d0390845992d666af6fdd232d7f1afcaa150a0e3a0b4913e9e735b",
+      "size_bytes": 1126
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/monte_carlo_results.csv",
+      "sha256": "8b2f987598845501838084850d8fc1b82030bcc7c8990b68d3d77d595554534e",
+      "size_bytes": 60033
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/propensity_overlap.png",
+      "sha256": "6145c8ec94d2f4e6ad1f87ead9c4ce447c9b8b8b47db3e9895e933b0bb381bde",
+      "size_bytes": 35592
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/report.html",
+      "sha256": "f3cddf62a5adfc555fa98990da1008dd72d4256f80bcfe9e6347f96329e1270a",
+      "size_bytes": 17683
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n1000/reproduce.md",
+      "sha256": "c45bfa26f2919dc52f5bf15a568d02c1b3a5b2fe3191bacc12633e84b8336a20",
+      "size_bytes": 570
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/bias_rmse.png",
+      "sha256": "82b7b2f0f077a0bdcf00c7ce5d0014310fb760a58ac36364cb6be9fab0ad4bde",
+      "size_bytes": 67873
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/contract.yaml",
+      "sha256": "9b42f4a679b7ac2124d86d66e02c5fd32affb21ef94205ac2c0eca6ead30ccd7",
+      "size_bytes": 1826
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/coverage.png",
+      "sha256": "f7e8858b5b9ac829af7b9b41103d7138842b51b88ff4c5bb643348cb6a355ad5",
+      "size_bytes": 45117
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/diagnostics.csv",
+      "sha256": "42a1ecc74de95ab96824151c023612b7a931cb373d7ced268d75dc949e888c41",
+      "size_bytes": 658
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/effect_heterogeneity.png",
+      "sha256": "7fb8b486c9914381223a05e0c537a8a2990d5857f3c63a6e0dad57045e3d3d20",
+      "size_bytes": 36496
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/estimator_summary.csv",
+      "sha256": "b11e623deaf472db52f2988ec8b609d74bbdcb48bde89d08ec17d04613fc52a1",
+      "size_bytes": 1138
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/monte_carlo_results.csv",
+      "sha256": "28240fe267c9de785a6e3534dd98119380a1ec649fff142a181f0b1bec8e6849",
+      "size_bytes": 59601
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/propensity_overlap.png",
+      "sha256": "1c397656861d6e8c6b5b906686b6224d0956e417c9d7a26dabe1858686cfaaf7",
+      "size_bytes": 34731
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/report.html",
+      "sha256": "be04a3d1711fcefac6ef4269396f3b5c38199461fa903b5a9e56645e10699c9e",
+      "size_bytes": 17673
+    },
+    {
+      "path": "scenario_grid/moderate_confounding_heterogeneous_effect_n500/reproduce.md",
+      "sha256": "96fc79071229ce8604410b1c2b49049a7974b6229c63e1713c009e58a72e131e",
+      "size_bytes": 568
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/bias_rmse.png",
+      "sha256": "84730861a334b0d803c7d03df5f2a4b43457858387130b9297142a9aa6b278dc",
+      "size_bytes": 68236
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/contract.yaml",
+      "sha256": "4ca7fec62d58425a707b19f4ebe6c6aa7145c45457478a212fc7cc72da51629c",
+      "size_bytes": 1790
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/coverage.png",
+      "sha256": "3d56c0d3abb30acf11f29094d41e95cf79e3438f22f42169e489a01101f3a8be",
+      "size_bytes": 44902
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/diagnostics.csv",
+      "sha256": "4b9fa99bcfb33404f9c3eab1ecba8bc22df2d1495fb8ca0a803c846f1f4f24bc",
+      "size_bytes": 477
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/estimator_summary.csv",
+      "sha256": "647dcb4c73ab53a5aaf969f3d1509900859e8f110dee09aa52613a21cd33e7bd",
+      "size_bytes": 1155
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/monte_carlo_results.csv",
+      "sha256": "0d9a2251ecfce9c3fe08d4eec29db54037868289bb5c4b02f59f181bc6dd5946",
+      "size_bytes": 50424
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/propensity_overlap.png",
+      "sha256": "6f2dc53123359ea62f921ad4e5c00a7adf74afe2ee7fe6200eb2ba2964943b64",
+      "size_bytes": 35603
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/report.html",
+      "sha256": "94064bd76d4105c1194bbca76949af3a9d0d361f4389e278019778808c74ac48",
+      "size_bytes": 16635
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n1000/reproduce.md",
+      "sha256": "03b5be57f744d5774ba483f4f911b8692f3faa4055309374181ecc3e1fbf0a8c",
+      "size_bytes": 540
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/bias_rmse.png",
+      "sha256": "c8edd02127b6223caad8973d8e5f30ddde7ae2f742fa6f2dda10712739c6f34e",
+      "size_bytes": 66139
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/contract.yaml",
+      "sha256": "c9e464c3e3ad391ca90c25928a7b5690a7d353f1b8872d0fe856a8cc5fac0c57",
+      "size_bytes": 1788
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/coverage.png",
+      "sha256": "25c3661fef0ed1600639ad0728abd7004fea7790ce015b120d6df9a230198a7e",
+      "size_bytes": 45065
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/diagnostics.csv",
+      "sha256": "051545f0db0e212777b842d9e6d87e4958e0301fbfeaf1e350204670f5b5e54a",
+      "size_bytes": 475
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/estimator_summary.csv",
+      "sha256": "1362fa5bc3526796beb2aba1c00d75fd111e3d8374aad8021571530828901494",
+      "size_bytes": 1144
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/monte_carlo_results.csv",
+      "sha256": "02eea7762f81d91240ba5e3ac162366548c5bf66687f0efb762ae6400ed98961",
+      "size_bytes": 49964
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/propensity_overlap.png",
+      "sha256": "2de1e5f7e308f5d9dd5b49237b6b8c458c4eeffebcd683b354a422ed1a775a56",
+      "size_bytes": 36054
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/report.html",
+      "sha256": "718e42d5ecbd6bda4678d446a0f8576deac53b358ee872495b456ebd6ce20eb6",
+      "size_bytes": 16636
+    },
+    {
+      "path": "scenario_grid/randomized_constant_effect_n500/reproduce.md",
+      "sha256": "ef1d5cfdbdcfd82ad57465ffdf627d6c859f59f48a16dc31ff5a28ce5e023432",
+      "size_bytes": 538
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/bias_rmse.png",
+      "sha256": "4cb743eb6b1f5a7af13579e463dc6c313bffe1494a9938de30a224ab670efa24",
+      "size_bytes": 69629
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/contract.yaml",
+      "sha256": "377fc6f9c54c178961de381738ff5210d8744cb12bd8382299188acd1f7e9e01",
+      "size_bytes": 1795
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/coverage.png",
+      "sha256": "9b1d0cabca28fb4160fad63c2e6fcc545ad8828d52229982ed5510fcc6b7bb73",
+      "size_bytes": 45290
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/diagnostics.csv",
+      "sha256": "1d184419f7e39eed274ead3e7e37201ae7fac9b2c983338356aa2f937da2f893",
+      "size_bytes": 474
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/effect_heterogeneity.png",
+      "sha256": "7fb8b486c9914381223a05e0c537a8a2990d5857f3c63a6e0dad57045e3d3d20",
+      "size_bytes": 36496
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/estimator_summary.csv",
+      "sha256": "c727c7dad8d50778f4b54fb18bab792c76b13224de087ee7c91938e9b31a1955",
+      "size_bytes": 1158
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/monte_carlo_results.csv",
+      "sha256": "33646f8d526129919159ef224df72d783a87e54484482a299b2e30b407a4716c",
+      "size_bytes": 50337
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/propensity_overlap.png",
+      "sha256": "78b4c1bfc4984704c72361742780a8fda10da38c63135d05c8d43ec58bc1c3bf",
+      "size_bytes": 35575
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/report.html",
+      "sha256": "1bc4ad6fe88c4672d638cb3bae1b73c12c6a9c1b0f3a2788544f86309ef5d969",
+      "size_bytes": 17545
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n1000/reproduce.md",
+      "sha256": "62c954519d665135c399d356c8fa7835d4c0964fb3acfea88625a4d77cb25fb9",
+      "size_bytes": 550
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/bias_rmse.png",
+      "sha256": "567bfd5482846dfa3716ea07f229d90a582824cdabdb49622559d44f10a4e425",
+      "size_bytes": 67603
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/contract.yaml",
+      "sha256": "7cc9c73cee2f45adda28dc5ea31c9c482e3f92091f81769486001c0f50a06585",
+      "size_bytes": 1793
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/coverage.png",
+      "sha256": "73b66ff1e3f1e3abf7312968c2a6675b3b970b8a01b757db64ea2d9b93c87cc2",
+      "size_bytes": 44842
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/diagnostics.csv",
+      "sha256": "deba166b89ddf91b27555303730a0b9fee251617b4ee4f7cb38a5790245c0d9d",
+      "size_bytes": 475
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/effect_heterogeneity.png",
+      "sha256": "7fb8b486c9914381223a05e0c537a8a2990d5857f3c63a6e0dad57045e3d3d20",
+      "size_bytes": 36496
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/estimator_summary.csv",
+      "sha256": "757a58026b907cc18a48573255b752c17d1103d428d03edaba3be1626e32410c",
+      "size_bytes": 1113
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/monte_carlo_results.csv",
+      "sha256": "de6e96b6d81d2e73a43c49e2c8720407b765e998a4841d965169555e844e5c8e",
+      "size_bytes": 49900
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/propensity_overlap.png",
+      "sha256": "b2cb1828f02d6c46c684fd4cb11674099fb01d0b2c9feb6f2e38ad5bc02d6eec",
+      "size_bytes": 36076
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/report.html",
+      "sha256": "6eca84da30b8260bc2c998dc5e54e1d97be35f2148a7f716f18185426c10d0b8",
+      "size_bytes": 17534
+    },
+    {
+      "path": "scenario_grid/randomized_heterogeneous_effect_n500/reproduce.md",
+      "sha256": "938979fb4dbe6a68410db66eb8b525b4e369e5f4339019bbbe72bb92a2d42b39",
+      "size_bytes": 548
+    },
+    {
+      "path": "scenario_grid/report.html",
+      "sha256": "9301a5a297feb80a9a898fb39e24cda689f7dedd2cafba4e92195bf4535d20bd",
+      "size_bytes": 22418
+    },
+    {
+      "path": "scenario_grid/scenario_summary.csv",
+      "sha256": "f86f495689cc798c3d51fecad7212704cb1e8600db1b87efdbaa43b0ec474a9d",
+      "size_bytes": 2792
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/bias_rmse.png",
+      "sha256": "2fac45e2298edd17fc5852d5274d4216b2396a0277621a0d8a6cafa247809736",
+      "size_bytes": 62393
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/contract.yaml",
+      "sha256": "a8a9b5424eb4475023ceb6826a34a0fa5427442fba98ffc16accde82c311a4d1",
+      "size_bytes": 1823
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/coverage.png",
+      "sha256": "d6b65f64eeb80b797ca8784ec89722e76be803c8d5342e3b2191118604cd05c0",
+      "size_bytes": 45106
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/diagnostics.csv",
+      "sha256": "eab23c4aeda1a5ca4437c30ee7c511abddd935ded65b6999d5b31b1163088ddd",
+      "size_bytes": 702
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/estimator_summary.csv",
+      "sha256": "4954d6168a72ebc5ab873471a9b012d1a0686d39bf80af192155dea4bcd8cac5",
+      "size_bytes": 1130
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/monte_carlo_results.csv",
+      "sha256": "3f99c363fbf55b7679e6acf72b6a3d0507fc478f12383435beddf360c33d1d46",
+      "size_bytes": 60023
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/propensity_overlap.png",
+      "sha256": "5c1a088a953df2395e8d1667e5faf00269e04b6fd6227098819949c671505e51",
+      "size_bytes": 37383
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/report.html",
+      "sha256": "04d661e31708716dd3bf1694db70074f0d9b984488fda2bbec6e9c2f89b53667",
+      "size_bytes": 16866
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n1000/reproduce.md",
+      "sha256": "58ba38b93f435b9208d814197f57dcd27486aa5be9483fec974c21491830cfe8",
+      "size_bytes": 556
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/bias_rmse.png",
+      "sha256": "9249c2b7cdc17a1cd4f138bc0c7e0281b5ca90c63fe23f604a2cfad0712de492",
+      "size_bytes": 62443
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/contract.yaml",
+      "sha256": "0a2f6c107acecd5dff76874721a9e3b4ddf6d72c63780aa8436db845ae38abe1",
+      "size_bytes": 1821
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/coverage.png",
+      "sha256": "ff31404d30390a53ec17ce38ae541bf74bc41b333c1fca7041c4eb2262dfbf08",
+      "size_bytes": 45144
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/diagnostics.csv",
+      "sha256": "950bf463b2909ed3d4b421934a90bf8a051e0ad0d78ea1d666ba251528da6cf7",
+      "size_bytes": 711
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/estimator_summary.csv",
+      "sha256": "5fbc574a1f11c59a08d83e35ce5cb55da8cba2754bc2354723127344ab2edeca",
+      "size_bytes": 1140
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/monte_carlo_results.csv",
+      "sha256": "695f12c1db42a3d0ee827df2c72763b6ca075d3731ac9b72d98c4efc211b7a8a",
+      "size_bytes": 59538
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/propensity_overlap.png",
+      "sha256": "e205f961cb0eea09b9679c798eb3dc1b184d78e74a3167ba46f98d8cff4ae989",
+      "size_bytes": 35240
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/report.html",
+      "sha256": "adb6d996b984f4327cae6f448c785ff6a1754270217471c3521c032eccc8cc2d",
+      "size_bytes": 16854
+    },
+    {
+      "path": "scenario_grid/strong_confounding_constant_effect_n500/reproduce.md",
+      "sha256": "bd2ea469a03aa3d0eea7c9ee98b98c27763a325f636d98c5627efe52505ff5de",
+      "size_bytes": 554
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/bias_rmse.png",
+      "sha256": "251b3692c1903bf5c38d65864a5a764232a14de49d32d838d59dea69195ac59e",
+      "size_bytes": 62983
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/contract.yaml",
+      "sha256": "ac40309f017f2441e9924c5482987a631f26ec0c5e0d17b93bdde2ddd4fb465e",
+      "size_bytes": 1828
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/coverage.png",
+      "sha256": "647391344845bf01d1d1222363d43133f06ccbf8253e3ba786cf2d12d9d7bcc1",
+      "size_bytes": 45186
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/diagnostics.csv",
+      "sha256": "8c85b4aab87d97a12274e42981678b81e5695a6c307bc6666477652eb79717c0",
+      "size_bytes": 704
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/effect_heterogeneity.png",
+      "sha256": "7fb8b486c9914381223a05e0c537a8a2990d5857f3c63a6e0dad57045e3d3d20",
+      "size_bytes": 36496
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/estimator_summary.csv",
+      "sha256": "dccc27d30230701d0bec23e1a0a4a202ffe1311667c59db4e0943ef854ec103b",
+      "size_bytes": 1146
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/monte_carlo_results.csv",
+      "sha256": "11982b90d8c471e786ee9f8663134940ec4ed78e3e95acb9d487071349497783",
+      "size_bytes": 59894
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/propensity_overlap.png",
+      "sha256": "d552d06135c6c1f5ca7f4350278f3d4d022da38b8c8176928a333be20abed9c7",
+      "size_bytes": 36197
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/report.html",
+      "sha256": "afbf8d5e8f5a0ce358e1c062382cd67a391ef8b0649036dd00764cc72d3a4b90",
+      "size_bytes": 17772
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n1000/reproduce.md",
+      "sha256": "231bc9e330cd2d102947d3af6adcd2b63e0d36c3886ed3422487c61f420e4c64",
+      "size_bytes": 566
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/bias_rmse.png",
+      "sha256": "c5643745154f303b89d619194727615515350012a9834167808ae9af62bdf8b3",
+      "size_bytes": 63247
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/contract.yaml",
+      "sha256": "bb6beafd64857178dae2a8e0eb7b001759d032193467257305b9d73020dca143",
+      "size_bytes": 1826
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/coverage.png",
+      "sha256": "cadf5d5e67671816e04da01e9713a96ed33c0abe3659d775c243ae14e44ddea0",
+      "size_bytes": 45361
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/diagnostics.csv",
+      "sha256": "5e9957a71d6f1cb14cfde0a3a3d8532e8ff3e3e8457dda93a9b9b3a177e50d49",
+      "size_bytes": 702
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/effect_heterogeneity.png",
+      "sha256": "7fb8b486c9914381223a05e0c537a8a2990d5857f3c63a6e0dad57045e3d3d20",
+      "size_bytes": 36496
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/estimator_summary.csv",
+      "sha256": "e6b7bb819f6b3a4b6d39518f9958038bf4ad728131e214d5221bec5fe2b0f051",
+      "size_bytes": 1124
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/monte_carlo_results.csv",
+      "sha256": "222e26ed1c7081e6a69197a5aeebbb61e7cbcaa7ed28ebd6aaaf02ec97af06b0",
+      "size_bytes": 59570
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/propensity_overlap.png",
+      "sha256": "4c57f79141a7c13080f32b9128e9e8824a1129b63e02f25382be20282e7b0187",
+      "size_bytes": 36389
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/report.html",
+      "sha256": "fb533c8cc7fc46040dba8f042fa3c081062aa0927399c8527d1f8bf2de0b8570",
+      "size_bytes": 17763
+    },
+    {
+      "path": "scenario_grid/strong_confounding_heterogeneous_effect_n500/reproduce.md",
+      "sha256": "3997cbe3b336c1d81112ad6838e5af79e33561fc985347612e43503cf013c079",
+      "size_bytes": 564
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/report.html",
+      "sha256": "4cc9b7bcd82725248a7935cdf03e2bf5b2b403801ef20912c14d2351a117a664",
+      "size_bytes": 23299
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/sensitivity_bias_heatmap.png",
+      "sha256": "3454a38963bf0347c61ecfd44d867a98c6764bc41c091e91293407c15159553a",
+      "size_bytes": 112192
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/sensitivity_grid.csv",
+      "sha256": "d52fdf49bb75130869e2fa2a6b4deb9faa6b6b68a3289a1e6d83141ff8b6925b",
+      "size_bytes": 21815
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/sensitivity_summary.csv",
+      "sha256": "8800087e76d420c691aad232db539888a48fca6a921dfc649f6a422f2a1a079f",
+      "size_bytes": 2533
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/bias_rmse.png",
+      "sha256": "f7cb6900512963dc735549a33072798b16b8401585906d4b56f3d5e34da61d53",
+      "size_bytes": 76951
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/contract.yaml",
+      "sha256": "1b3bbcdf51faf2068d01831e8ce155fd0c76a7347e5428500e6dcb5bc0ce0d49",
+      "size_bytes": 1880
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/coverage.png",
+      "sha256": "56c3ab4c17dfccf93667e31b1beae523f3c9394c04d982f42fa38d66ea849515",
+      "size_bytes": 49914
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/diagnostics.csv",
+      "sha256": "36519e4b78f4dcecba98aa0c6dc1cc15ade4f2df0a42fc89fa25d3ce460cefb0",
+      "size_bytes": 1076
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/estimator_summary.csv",
+      "sha256": "1a139d2b80af806c739a99ae89b19cabfccbdcc3e52d4a47dd815394fbad3d34",
+      "size_bytes": 1469
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/monte_carlo_results.csv",
+      "sha256": "fc9d91fa2d9ea58fddb876d1c0365cc1f5d4a0628c43ad2e870c4cfdf9741710",
+      "size_bytes": 89424
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/propensity_overlap.png",
+      "sha256": "db692039aa55a2ed1fd8c5efaa5ec6f3d258b5887cd71769fa7ac75afa0ac00a",
+      "size_bytes": 35251
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/report.html",
+      "sha256": "9f1bf12eeb7a78f61426313f9c85af0e07ecc5dfc0b0bd6977863b8f73b807f1",
+      "size_bytes": 19259
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0/reproduce.md",
+      "sha256": "39541bcbf5027f6e91b77abe60fb8edb08f0cae839939285facc9a26e02758d2",
+      "size_bytes": 494
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/bias_rmse.png",
+      "sha256": "6514b1c06916eadd6ecc0ad20b025557dce3e037d9e8863ec58669084458c993",
+      "size_bytes": 83746
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/contract.yaml",
+      "sha256": "e077b44f50447858f1dc71e17dbb062517bed3939c06f3d5dd96ea4507b540d9",
+      "size_bytes": 1882
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/coverage.png",
+      "sha256": "db603c6da6c247deeb785f1314d460857e05978c57616c6150976c8b99f785f3",
+      "size_bytes": 50147
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/diagnostics.csv",
+      "sha256": "e73b10653b84f7f4f0298d08441c718aaffbcb91b1c883752219f1cb1cdd0e74",
+      "size_bytes": 1061
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/estimator_summary.csv",
+      "sha256": "064f4ff8cb75491c73787f010313a0fb5cd61c092ba74cfff7b3f79ee8b65452",
+      "size_bytes": 1460
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/monte_carlo_results.csv",
+      "sha256": "1a166307ecdc763b367cf35a209aef3c6dfd624ba22d07d866f67aaecec86d38",
+      "size_bytes": 89364
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/propensity_overlap.png",
+      "sha256": "85c4c9f6bea555ca64e3311332b5715f89e7ea0cb7b6e66c823abe53ff4e2cd6",
+      "size_bytes": 35657
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/report.html",
+      "sha256": "7120f6668d78b7248f3dd82aee9e3ab65dfb8c7b6d0261f6e8a6ec5c95445304",
+      "size_bytes": 19267
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y0p5/reproduce.md",
+      "sha256": "566b1582d4d636d2f12fcc360a8ec202300222fd06b32c846a1e71837a285382",
+      "size_bytes": 498
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/bias_rmse.png",
+      "sha256": "c48ea79333525b23603a43f25e9b5331cb0e1bc1f29ee191d0f30c04a75bf151",
+      "size_bytes": 82381
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/contract.yaml",
+      "sha256": "f1eb81bb721cc34dc414a4cb2ed2e33c5a1b59795f56348c5aad84e69a22316f",
+      "size_bytes": 1880
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/coverage.png",
+      "sha256": "f0aeda70249480b87ed35bcfd6d07461874f7890fd91c781a33a33ac3f8fd707",
+      "size_bytes": 50511
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/diagnostics.csv",
+      "sha256": "75a746edef957a4246f6c485f8fa43c582243e1d35c87a6738dc7d7a82e0e98b",
+      "size_bytes": 1068
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/estimator_summary.csv",
+      "sha256": "1bf260d1ab624f88c7e907cf69f87a6d537ee7bdbce0d1e49f5fb880bbd8a3ec",
+      "size_bytes": 1459
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/monte_carlo_results.csv",
+      "sha256": "7d00ef9d840f9225be9546d8db024e154d77a138c243b2ef76a75c5efd9dd23a",
+      "size_bytes": 89509
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/propensity_overlap.png",
+      "sha256": "8025e8544b3ec3683759882fe4e446f491d01973e50fae371b46126adbc6c19f",
+      "size_bytes": 37885
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/report.html",
+      "sha256": "ee6d9d8b8c56a27ef945d9d3ec721aace232f826641125e30a15a0a8726bb7c3",
+      "size_bytes": 19262
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1/reproduce.md",
+      "sha256": "539579e37d553f72172b6e0544a2f5973bf31417b99013817bef515f0a5bc986",
+      "size_bytes": 494
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/bias_rmse.png",
+      "sha256": "05a8840e20737442676df6619934ab9081a202ecec43953ce2490a554f1b5226",
+      "size_bytes": 81428
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/contract.yaml",
+      "sha256": "28d5b9fca10d469ac09a0309cfbd83eba684d16b9ed6bc8e91631ba5f726d4df",
+      "size_bytes": 1882
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/coverage.png",
+      "sha256": "9a96feee5e2071b5baf39d882455ed62dffe552eb35776762597a68abd107140",
+      "size_bytes": 50632
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/diagnostics.csv",
+      "sha256": "a11d0b5c5635682b6ccf5978c45f0d9009f5321e5f73c8dc2ac94a9a358f410a",
+      "size_bytes": 1048
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/estimator_summary.csv",
+      "sha256": "edcd14cced5d30b44f770de485b27d49af13e1fded322ce93845b9e83b842094",
+      "size_bytes": 1466
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/monte_carlo_results.csv",
+      "sha256": "a73f024b837a0ea8672e2dcc81a3b3f1c7c3fb9e4b8977c5f7993f8346e52fe9",
+      "size_bytes": 89507
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/propensity_overlap.png",
+      "sha256": "36a6515ee02326953af28eef0bec413bc6cbca93930ab5be7963824457a4e89f",
+      "size_bytes": 34643
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/report.html",
+      "sha256": "b7ae53bc0567d4766ddbfaeea44a5bb414d6fd6f3fe12ea2f31f73a2eb53f578",
+      "size_bytes": 19273
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0_U_Y1p5/reproduce.md",
+      "sha256": "eb1f84426561c2d5e300b2ed61f7f14af4a8e56472a280cc3612c451367985c2",
+      "size_bytes": 498
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/bias_rmse.png",
+      "sha256": "ed5760127320e74020f521adac2b250ace37f27740e9251bd6b9f9d3284afcdc",
+      "size_bytes": 78820
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/contract.yaml",
+      "sha256": "1698d8387e1ebe285df8b5c3a678da5750da2a05e78b2bdbff30b4c3bfd5bc3b",
+      "size_bytes": 1882
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/coverage.png",
+      "sha256": "aa623c876ccc5bc2ea1901aa5651f107616ba880a42d4969f360ef5f3f9453ce",
+      "size_bytes": 50049
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/diagnostics.csv",
+      "sha256": "a7a148d7ebcb7525baf5ba32acdc94a1f907cf42325c81f2cdb0d01e2d592935",
+      "size_bytes": 1073
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/estimator_summary.csv",
+      "sha256": "f3ad162127cad826d170e9f34485be62f3c55a5abd1ce2aa6c98bcdc0401bb10",
+      "size_bytes": 1463
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/monte_carlo_results.csv",
+      "sha256": "f2be3f52493bc30edfef1f36fcf5a0eaab2a361d1c8ed871252c1ecfc9d70307",
+      "size_bytes": 88952
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/propensity_overlap.png",
+      "sha256": "f2a68ac8370c9297dc62e2240a1422bb3b384d16be434720e1b6a74fee5b8ed9",
+      "size_bytes": 36925
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/report.html",
+      "sha256": "9341758b30f7682b381a949de0c7ddd9062aa01242191568e0e0c5328724c584",
+      "size_bytes": 19263
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0/reproduce.md",
+      "sha256": "155bd626cbea5f2f2fae0fabc328c7af310de332dc81bfbd8baab7728228752e",
+      "size_bytes": 498
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/bias_rmse.png",
+      "sha256": "9c0f331bfedd5c677148ef124c069af00682fea13a6b2c5048e632d358731b05",
+      "size_bytes": 81421
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/contract.yaml",
+      "sha256": "cc54cd4209d3f7f7ae8f2f85658addebaf3dd66ae2fe6e9bbc4e26e87ff64527",
+      "size_bytes": 1884
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/coverage.png",
+      "sha256": "589b5da08a2a3b8a2aca89241d70cbcfdaf20e3e2b1193924060204ec100ea71",
+      "size_bytes": 50186
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/diagnostics.csv",
+      "sha256": "3aeda6760826b7cd22d628a527819fa90ae6be165a1a92a8cf6d5b7f625107af",
+      "size_bytes": 1056
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/estimator_summary.csv",
+      "sha256": "1a696aa9098f487d0473b766dad4e28831cd3c53c1504afa7241c419495c32bd",
+      "size_bytes": 1455
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/monte_carlo_results.csv",
+      "sha256": "a80eab58be918b6268188a6175dda94007182bc18094c330a2c77bcd83b44bcb",
+      "size_bytes": 89152
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/propensity_overlap.png",
+      "sha256": "ad4c9efffc424ac42210d222ed69e81db736a793920b16dd3da54ab128b1e8cd",
+      "size_bytes": 36208
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/report.html",
+      "sha256": "f5e9d0d430607f8e00214aefa0778956c44a30ed1d500b4262774d8031ba1de0",
+      "size_bytes": 19381
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y0p5/reproduce.md",
+      "sha256": "d04611302de986fc0aba8eb270e7a822bafab77ca5b6e2202fa74400ad7a4858",
+      "size_bytes": 502
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/bias_rmse.png",
+      "sha256": "26f8fea12d5d325cd517613ed5b4db793dab3c59ac8744227ed18459d63c673e",
+      "size_bytes": 84053
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/contract.yaml",
+      "sha256": "7b9fbe27e5fecbd0461f2176bcf92ec8656d90ad1125c8d882462c61d13b1340",
+      "size_bytes": 1882
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/coverage.png",
+      "sha256": "225ba0ffa48df6ba3f4a67bee4c16fe992552e86df050f7cbdd9e617d26063f5",
+      "size_bytes": 50082
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/diagnostics.csv",
+      "sha256": "6045c4f2e750e05fafedf4412e1bd540afed1a84456b1bbf1a83bd3499e4eb06",
+      "size_bytes": 1056
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/estimator_summary.csv",
+      "sha256": "d633acf0a675f9e4ad81debf289a7c1e1aec3e6b18a45f338b2b105534e5aef0",
+      "size_bytes": 1440
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/monte_carlo_results.csv",
+      "sha256": "144cb11b9923413c52b25fc8078ee98a4f0f95f34d25f6c678483fc7ea5acb1e",
+      "size_bytes": 89097
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/propensity_overlap.png",
+      "sha256": "c8fcc9fee5050359dde1607119dcae469f43b39f776f190052180319cd920dfb",
+      "size_bytes": 37594
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/report.html",
+      "sha256": "9caf5617050768d66b9a4f75593dfa4c4a81688f75a413f4cb6c1e865738660c",
+      "size_bytes": 19372
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1/reproduce.md",
+      "sha256": "b782687a4cc49c3675cd518a8ba70488e990af6f307232eb2a77cc3765262446",
+      "size_bytes": 498
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/bias_rmse.png",
+      "sha256": "d042fa204d083114dc6d619ef0eb5f7f6fdea972020e22dae39f4b6decca1a55",
+      "size_bytes": 86284
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/contract.yaml",
+      "sha256": "72ff68531808d9bae2644cc151d4df77ab3e82e79acbcc690c9bb635eb953f5a",
+      "size_bytes": 1884
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/coverage.png",
+      "sha256": "0585ef852a7748746c12b33d5e5cc53e61aa95ca5636558c3bafa6b96d7f196a",
+      "size_bytes": 50060
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/diagnostics.csv",
+      "sha256": "6c50559fca330ca3b0ede70a4453257b1a6d7de2ce7147b7cca20f5024309892",
+      "size_bytes": 1047
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/estimator_summary.csv",
+      "sha256": "934f959a7a13d6fc189422b9e3e2fb6c6ebef08d6af3d95837a3ebcc37cf4256",
+      "size_bytes": 1432
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/monte_carlo_results.csv",
+      "sha256": "6f3eba815a1a6680831f3659a7dc32a0494cf530f827148340d4e278d1e5d331",
+      "size_bytes": 88764
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/propensity_overlap.png",
+      "sha256": "c8514c9d10dbf50045623b5a57d42e9e4e3e6183077cdda327970194b3e47f91",
+      "size_bytes": 36941
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/report.html",
+      "sha256": "84a7a9965e15b23db6a8a7c8a773d9dc283343b54f1ff8e66b453eadf1fd641c",
+      "size_bytes": 19381
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p4_U_Y1p5/reproduce.md",
+      "sha256": "424118900e8808f0b75a86f6897a41dbe0b3e2fd1436a28dc351c83071afb904",
+      "size_bytes": 502
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/bias_rmse.png",
+      "sha256": "70692d0108ac7d8bd1a57c169a0b62fa2165baa23f8dd28e3cdd722df45b4ea2",
+      "size_bytes": 82809
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/contract.yaml",
+      "sha256": "52692c4c77fb91ad49dea5fe385aff42f675d2ea4f990b72379d76a6987b9da4",
+      "size_bytes": 1882
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/coverage.png",
+      "sha256": "eda040713fdb0969f204df4c5766d76fc7260dcacfe9e4fde7923039feaeef3c",
+      "size_bytes": 50114
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/diagnostics.csv",
+      "sha256": "43d9f20e69e4715be74aa2e3bd4d66c0155b1022755f3f609fd19dc5d9dd72c4",
+      "size_bytes": 1060
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/estimator_summary.csv",
+      "sha256": "3ce3ddee8553227a66b4b2f97c92f73bc9d837ac99d05d804bbd03f62ce5d9ca",
+      "size_bytes": 1464
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/monte_carlo_results.csv",
+      "sha256": "18ab519c49e1f050b4bdf7fe8063a9b9084deed3d7770d3400b44674404ba191",
+      "size_bytes": 89072
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/propensity_overlap.png",
+      "sha256": "96adfacfac88f4ed8ff2abc956404dcf7de1c280789056f4405abb2d1badf091",
+      "size_bytes": 38552
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/report.html",
+      "sha256": "98a9ddc8ee37e26bb2deac2a2ec26742f03e8cc933a79fd56dc04fb912240bab",
+      "size_bytes": 19280
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0/reproduce.md",
+      "sha256": "e9c65791ee949c721cbad7c4c35d3a715f101d417fab0acfb76f2bd792b4f9ce",
+      "size_bytes": 498
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/bias_rmse.png",
+      "sha256": "68c6391ff808918cf9bf7c0519d2d315e48674d54cf08e9a43414526f93a34a7",
+      "size_bytes": 82264
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/contract.yaml",
+      "sha256": "95e93a50f10d96aa92be107a26da9330e5efc0df4058f5e28cac650806156b39",
+      "size_bytes": 1884
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/coverage.png",
+      "sha256": "9acfb29b90df7a930b61c828e999d8ae1067299e749b9168816a6c5701951dd6",
+      "size_bytes": 49978
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/diagnostics.csv",
+      "sha256": "9c1220e8b8478f0e190c97fb24726ba64240bb1e5ec227ba54bc128c1b38d165",
+      "size_bytes": 1048
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/estimator_summary.csv",
+      "sha256": "1f7fb45a4b0fc79d37dd1a06502c5c45fd532066e0d3023bd9d1272daccac824",
+      "size_bytes": 1457
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/monte_carlo_results.csv",
+      "sha256": "4d6bb82daf772ca734b0ebe1face105e76f68c98c9fb6a0fefd4f449ce4d5fe9",
+      "size_bytes": 89154
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/propensity_overlap.png",
+      "sha256": "e6c60a1bdaa4b553be07dd20334774d62559b2e51f644d8d09a9803c6f8df58f",
+      "size_bytes": 38552
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/report.html",
+      "sha256": "1d50d9b845f0c3a32b359c981cdcce295038bf854301d3f9f3f3e12d384d0036",
+      "size_bytes": 19392
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y0p5/reproduce.md",
+      "sha256": "9a31948c2b4c17f3cb0218938251b315b4ec991d180daaf59d15264ed552efcd",
+      "size_bytes": 502
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/bias_rmse.png",
+      "sha256": "27a581959ef8edb3e82c95bae8267031d465c1496dc7b51921fcef8e8575f4c4",
+      "size_bytes": 80201
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/contract.yaml",
+      "sha256": "4a9103445ad08e33827a7ee4cf8d362f90314537067483609d727c770e243bf2",
+      "size_bytes": 1882
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/coverage.png",
+      "sha256": "4d4ff80ff997b417b5829925523b0535698785ca8384b1078ee5417d7629a54e",
+      "size_bytes": 49462
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/diagnostics.csv",
+      "sha256": "5894408e2b75881a44e8dc4e5101854694f84f878338c608293715557431f93f",
+      "size_bytes": 1048
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/estimator_summary.csv",
+      "sha256": "4cb35079e132c2b8a9c39d3d5d0ee33e702099eecf9b8f6f725f4fc7177b2a61",
+      "size_bytes": 1417
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/monte_carlo_results.csv",
+      "sha256": "c857ec4462348e8467237c9b0cb3c8c8b20070d2982fb4facc7bbc1e7a6ceeeb",
+      "size_bytes": 89013
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/propensity_overlap.png",
+      "sha256": "959b0a68d33e410cd8217b84ea936e50b3d86b848f22fd061c173eeaafcaa54b",
+      "size_bytes": 38551
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/report.html",
+      "sha256": "9a152d40061b5edbf66386e055244e33147b7c556d2fdd244f75139cbbbab6a3",
+      "size_bytes": 19280
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1/reproduce.md",
+      "sha256": "582ec5ad7e7edf9cb34db8708fbc565eb95c7ecfacc7034099ade902ab6c6d56",
+      "size_bytes": 498
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/bias_rmse.png",
+      "sha256": "973cdcd941f6e369e62d780ee05003be60daaed758ebe7807c52b9f70c27f2cb",
+      "size_bytes": 74534
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/contract.yaml",
+      "sha256": "0f1d2e4ed8a7338c82b43cc1a0717b1090ba513be14231610071e3a25e877525",
+      "size_bytes": 1884
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/coverage.png",
+      "sha256": "2c31df76507f5399b4f200d7e85f8826e0b38827d7925c948c2421e832bfea0e",
+      "size_bytes": 49235
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/diagnostics.csv",
+      "sha256": "15486d0e4b09009f4d6740c603fa254d55e479dd6b73d7de0b2b49558e81f3b4",
+      "size_bytes": 1061
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/estimator_summary.csv",
+      "sha256": "3b4de9acc30dde47e17ab7f58e8f3968bd8258bc2fb71c973a31d66aa5beab19",
+      "size_bytes": 1400
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/monte_carlo_results.csv",
+      "sha256": "5689c7824db062ec3884ed67d2a9a3da74a81d59f559427d2e61b01763481adb",
+      "size_bytes": 88958
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/propensity_overlap.png",
+      "sha256": "f44a1e79fa26d4ef5fdd88b5df8ffe5231dc878b094ab3d517dd9c9b4338c2aa",
+      "size_bytes": 38487
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/report.html",
+      "sha256": "9299adb1a4107a9eacfca5b0de9b055e484d59e674d6083b3e03f0c78398219d",
+      "size_bytes": 19291
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A0p8_U_Y1p5/reproduce.md",
+      "sha256": "9aa47206fd0ed88c47485bcd1506a9135cc81bf3a108b05ce8150b6326ad22d9",
+      "size_bytes": 502
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/bias_rmse.png",
+      "sha256": "f4452c7e5e415f4ce4b617a588ed42e4d8cb76a632389d499ebda9b0151ca796",
+      "size_bytes": 81917
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/contract.yaml",
+      "sha256": "ff2889f16fe559141d44dc91ac86ee90da7b36aaa200c91b8ecbd265d0042926",
+      "size_bytes": 1882
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/coverage.png",
+      "sha256": "ae8b6d23fff210db756b9d0a5c07d0fc0564c4adacfb541844620340936b9795",
+      "size_bytes": 50575
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/diagnostics.csv",
+      "sha256": "b2b983c1f47bd46c46965c025200c88e51371cd708a12b370c1a2f66b3da6589",
+      "size_bytes": 1105
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/estimator_summary.csv",
+      "sha256": "6790433012a5a433061c96123bc44f6ef07eb3d717b0696782d72fd353dc702a",
+      "size_bytes": 1461
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/monte_carlo_results.csv",
+      "sha256": "daa5bae2b98244684eff3f3255721c936cff1d2e57b1b96dbcc2c2b5e89f9dfa",
+      "size_bytes": 89238
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/propensity_overlap.png",
+      "sha256": "dfc0b0f9b6a694e651e8884ef65bcc4eb39251fe6b728e9f333fdfeb082ac449",
+      "size_bytes": 36221
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/report.html",
+      "sha256": "e13e8929c7370d75446dc8d9855968a6c9d2c77c18b37aea1291f2b17c368e0d",
+      "size_bytes": 19350
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0/reproduce.md",
+      "sha256": "b3d523cf92eea56d3121105875472e1bc8806dde30951c66d784d0ceb905286c",
+      "size_bytes": 498
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/bias_rmse.png",
+      "sha256": "e430bc6593b4f335f4c45eef230197a4fd80aa51353fb0fbc014842615e43130",
+      "size_bytes": 85204
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/contract.yaml",
+      "sha256": "b64ec46ee7869cfb40c6294900f1d2f9d124c4d0c08d81231ee393c66b103ef9",
+      "size_bytes": 1884
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/coverage.png",
+      "sha256": "0ee5a43deb0b324c9bc40d095784446ca3eb448dc2362306169561c08b4e0432",
+      "size_bytes": 50109
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/diagnostics.csv",
+      "sha256": "d8ae4ef170dcdfdd0a58a40849d2a2f9f5889da20d221cdd960f7610d4d67fa8",
+      "size_bytes": 1101
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/estimator_summary.csv",
+      "sha256": "7badaf45e1859d340b413a88b2d0a78bd926c57824ade9ed039162f5644e3129",
+      "size_bytes": 1445
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/monte_carlo_results.csv",
+      "sha256": "c18a6c7a717a294e701399ca1a612679eea08db6c9effbc13d959a967f7dffdb",
+      "size_bytes": 88905
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/propensity_overlap.png",
+      "sha256": "5305bdf473534edba878d45b7ea1ccf09860175220a895ec6796dcfb82414f09",
+      "size_bytes": 38511
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/report.html",
+      "sha256": "b775d0f6794d2f4a9e1609bfa85a86bff9312cfb4621282562dff2483144db90",
+      "size_bytes": 19475
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y0p5/reproduce.md",
+      "sha256": "c8c20db76e16f5187a0e1b24de7f29c6c75e1698de9d8f07cc3e38b37caa8c0e",
+      "size_bytes": 502
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/bias_rmse.png",
+      "sha256": "d9acf9ec22655d8e75184706f98854ef63f19ca811909fa434088311df9817b2",
+      "size_bytes": 74609
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/contract.yaml",
+      "sha256": "15011231112040e32c331ccd886adf0bec74fa391482a963db40c0fe389e3795",
+      "size_bytes": 1882
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/coverage.png",
+      "sha256": "6af73eed613312f163aa45cbc2cdeea87e11af819d64e1b1e2ac892d1f6b3d99",
+      "size_bytes": 48922
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/diagnostics.csv",
+      "sha256": "b3803eba0e38ef49e1ba5e4d6f99898835bd641b3afc39e3d5257eb00fceee9c",
+      "size_bytes": 1101
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/estimator_summary.csv",
+      "sha256": "b8e37ca11bb7a52b7ca912bf94c3fd42ddd3e0d68425cf84696aa1274c496616",
+      "size_bytes": 1397
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/monte_carlo_results.csv",
+      "sha256": "c33358d58253e69b0255962913de366875606aafb90080c72490ff85b09b3762",
+      "size_bytes": 88738
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/propensity_overlap.png",
+      "sha256": "3e0eaa9c0bb2ec2c5fe63bc87617e3070bf40d00b10899ef66b73d0d8cc591ce",
+      "size_bytes": 38509
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/report.html",
+      "sha256": "0624d160e649b380e5b0d61d2d4d643efa69963f830590c804c085e62d5c91a1",
+      "size_bytes": 19363
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1/reproduce.md",
+      "sha256": "4f52a6ab5093408c3f8160c19e88eee6de5282807a659dc2912809ee79160b56",
+      "size_bytes": 498
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/bias_rmse.png",
+      "sha256": "caa31fb87c0a0800dff5f57364db4a8106b5a1b9e28738672f9b8ea446b84f64",
+      "size_bytes": 79182
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/contract.yaml",
+      "sha256": "eb7ab9ac27d3c35745a936f66fca7ba0b8d8c9bf59f7110568fdedcbae6f10fa",
+      "size_bytes": 1884
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/coverage.png",
+      "sha256": "9fdfe12c2fe7b7bc2ca0cac1182d2bb71aad4af26dd65f026ea5160154cd4e1b",
+      "size_bytes": 49034
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/diagnostics.csv",
+      "sha256": "42519ea90e8d047bd3fe90cdbfb9b68e32254bdbe325577f39e6e39cf8c31255",
+      "size_bytes": 1092
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/estimator_summary.csv",
+      "sha256": "b8c1f0831c180d76b0a0e02964a8636f533be09b4d54ce682507a80038c18c40",
+      "size_bytes": 1394
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/monte_carlo_results.csv",
+      "sha256": "b9796140a6078dd40b20ed0d21db2e78c8132b58e8e76406a55a20e85086cb42",
+      "size_bytes": 88327
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/propensity_overlap.png",
+      "sha256": "304f92f3ffa4ea911d71e4b9875a5de64c02c368a1cb2c9e1afd504d3cb3ffea",
+      "size_bytes": 38560
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/report.html",
+      "sha256": "ca07bef8e14ce93ec797074f0c19694ec4af21214b4b0130f5e9bfbd402500ce",
+      "size_bytes": 19373
+    },
+    {
+      "path": "unmeasured_confounding_sensitivity/U_A1p2_U_Y1p5/reproduce.md",
+      "sha256": "08b826999a42a7aab0f0f6f4c0fc2ab4ff116e56c75b5b3e544a0f3b00eab9ee",
+      "size_bytes": 502
+    },
+    {
+      "path": "weak_overlap/bias_rmse.png",
+      "sha256": "62e39b75165e8d3f69ead01d926f73e0f0535a2999be4182eaa3b180511a5953",
+      "size_bytes": 80618
+    },
+    {
+      "path": "weak_overlap/contract.yaml",
+      "sha256": "c43a1a5a01a29b656a2a2552d743fd215e57fb138e403a2b397ceb77101c3713",
+      "size_bytes": 964
+    },
+    {
+      "path": "weak_overlap/coverage.png",
+      "sha256": "38db8ca2b3e776475c85b63f9c105c3378487a55f4b9c9cbed36302565c62e10",
+      "size_bytes": 54352
+    },
+    {
+      "path": "weak_overlap/diagnostics.csv",
+      "sha256": "22a696d88008c2f203a79ee15c815a15e975a17038c1fbd576d4ec74f6be7623",
+      "size_bytes": 1410
+    },
+    {
+      "path": "weak_overlap/estimator_summary.csv",
+      "sha256": "300d9b732389f016476070cc9a0d6da7c1a43e61b1a99ee31d6435b7c4489272",
+      "size_bytes": 2891
+    },
+    {
+      "path": "weak_overlap/monte_carlo_results.csv",
+      "sha256": "170205f169bd8768541d8964d512cf14afddcd4098a4adeab55d8d968d1d814d",
+      "size_bytes": 452298
+    },
+    {
+      "path": "weak_overlap/propensity_overlap.png",
+      "sha256": "4f87ff1716d6f4c4c8f84979027f0118aca1503e65f7bf011968c533b7b4c452",
+      "size_bytes": 35074
+    },
+    {
+      "path": "weak_overlap/report.html",
+      "sha256": "382e7c3d8318ac597d069d5fb3d9ba3d4cd4cdacef4e1b43111b23ce23685a73",
+      "size_bytes": 19997
+    },
+    {
+      "path": "weak_overlap/reproduce.md",
+      "sha256": "c52fb30396d7bd6191175eca2622f64b39b6bc76a74298e7825dec17f9694216",
+      "size_bytes": 538
+    }
+  ]
+}
