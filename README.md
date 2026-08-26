@@ -1,3 +1,9 @@
+> [!NOTE]
+> **Archived STAI-X Challenge 2026 Award C submission.**
+> This repository preserves the submitted challenge snapshot and is no longer under active development.
+> Active development continues at [PickBranchZ/DGPForge](https://github.com/PickBranchZ/DGPForge).
+> The [`award-c-submission` tag](https://github.com/PickBranchZ/DGPForge-STAI-X-Award-C/tree/award-c-submission) identifies the submitted snapshot.
+
 # DGPForge
 
 **Known-truth causal DGP simulation for estimator stress-testing.**
